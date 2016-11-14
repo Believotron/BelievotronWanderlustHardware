@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPR121QR2
+D 12 ch cap-touch input
+F mpr121qr2.csv
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+#End Doc Library

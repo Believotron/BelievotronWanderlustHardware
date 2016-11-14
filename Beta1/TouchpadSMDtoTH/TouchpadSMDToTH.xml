@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/danie/Documents/WIP/Believotron/Believotron-Github/Wanderlust_PCB/Beta1/Wanderlust Beta 1.sch</source>
+    <date>2016-11-11 3:26:13 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Wanderlust Beta 1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>R</value>
+      <libsource lib="believotron_wanderlust" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58262BD4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="believotron_wanderlust" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="believotron_wanderlust">
+      <uri>C:\Users\danie\Documents\WIP\Believotron\Believotron-Github\Wanderlust_PCB\Liberry\believotron_wanderlust.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,47 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Wanderlust-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1250 1800 3450 2950
+U 582A39A6
+F0 "Touchpad12CHI2C" 60
+F1 "Touchpad12chI2C.sch" 60
+F2 "SDA" I L 1250 1950 60 
+F3 "SCL" I L 1250 2100 60 
+F4 "+3.3V" I L 1250 2250 60 
+F5 "GND" I L 1250 2400 60 
+F6 "P00" I L 1250 2550 60 
+F7 "P01" I L 1250 2700 60 
+F8 "P02" I L 1250 2850 60 
+F9 "P03" I L 1250 3000 60 
+F10 "P04" I L 1250 3100 60 
+F11 "P05" I L 1250 3200 60 
+F12 "P06" I L 1250 3300 60 
+F13 "P07" I L 1250 3400 60 
+F14 "P08" I L 1250 3500 60 
+F15 "P09" I L 1250 3600 60 
+F16 "P10" I L 1250 3700 60 
+F17 "P11" I L 1250 3800 60 
+F18 "IRQ" O L 1250 3900 60 
+$EndSheet
+$Sheet
+S 5850 1850 2850 1950
+U 582A9153
+F0 "Touchpad12ChI2CB" 60
+F1 "Touchpad12chI2C.sch" 60
+$EndSheet
+$EndSCHEMATC

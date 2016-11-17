@@ -5,6 +5,11 @@ D 12 ch cap-touch input
 F mpr121qr2.csv
 $ENDCMP
 #
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
 $CMP R
 D Resistor
 K R DEV

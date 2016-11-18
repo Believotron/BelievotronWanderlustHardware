@@ -5,8 +5,8 @@
     (no_connects 0)
     (area -0.050001 -16.112501 194.010001 0.050001)
     (thickness 1.6)
-    (drawings 17)
-    (tracks 22)
+    (drawings 6)
+    (tracks 20)
     (zones 0)
     (modules 26)
     (nets 26)
@@ -62,8 +62,8 @@
     (pad_drill 3.3)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (grid_origin 185.76 -2.125)
-    (visible_elements 7FFEEFFF)
+    (grid_origin 185.76 0)
+    (visible_elements 7FFEFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -317,7 +317,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F897F)
-    (at 35.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FEA86)
     (fp_text reference PAD0 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -330,7 +330,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F8984)
-    (at 55.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FED2B)
     (fp_text reference PAD1 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -343,7 +343,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F8989)
-    (at 75.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FED67)
     (fp_text reference PAD2 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -356,7 +356,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F898E)
-    (at 95.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FEDAC)
     (fp_text reference PAD3 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -369,7 +369,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F8993)
-    (at 115.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FEF5E)
     (fp_text reference PAD4 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -382,7 +382,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F8998)
-    (at 135.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FEF66)
     (fp_text reference PAD5 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -395,7 +395,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F899D)
-    (at 155.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FEF6E)
     (fp_text reference PAD6 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -408,7 +408,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89A2)
-    (at 175.76 -52.125)
+    (at 96.98 10.050001)
     (path /582FEF76)
     (fp_text reference PAD7 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -421,7 +421,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89A7)
-    (at 35.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF03A)
     (fp_text reference PAD100 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -434,7 +434,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89AC)
-    (at 55.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF042)
     (fp_text reference PAD101 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -447,7 +447,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89B1)
-    (at 75.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF04A)
     (fp_text reference PAD102 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -460,7 +460,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89B6)
-    (at 95.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF052)
     (fp_text reference PAD103 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -473,7 +473,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89BB)
-    (at 115.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF05A)
     (fp_text reference PAD104 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -486,7 +486,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89C0)
-    (at 135.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF062)
     (fp_text reference PAD105 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -499,7 +499,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89C5)
-    (at 155.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF06A)
     (fp_text reference PAD106 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -512,7 +512,7 @@
   )
 
   (module Liberry:TOUCH_PAD_10CM (layer F.Cu) (tedit 582F8670) (tstamp 582F89CA)
-    (at 175.76 -32.125)
+    (at 96.98 10.050001)
     (path /582FF072)
     (fp_text reference PAD107 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -524,17 +524,6 @@
       (net 25 /PAD107))
   )
 
-  (gr_line (start 185.76 -62.125) (end 25.76 -62.125) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 25.76 -42.125) (end 185.76 -42.125) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 25.76 -22.125) (end 185.76 -22.125) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 185.76 -2.125) (end 25.76 -2.125) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 25.76 0) (end 25.76 -64.25) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 45.76 0) (end 45.76 -64.25) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 65.76 0) (end 65.76 -64.25) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 85.76 0) (end 85.76 -64.25) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 105.76 0) (end 105.76 -64.25) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 125.76 0) (end 125.76 -64.25) (layer Dwgs.User) (width 0.2))
-  (gr_line (start 145.76 0) (end 145.76 -64.25) (layer Dwgs.User) (width 0.2))
   (gr_line (start 165.76 -64.25) (end 165.76 0) (layer Dwgs.User) (width 0.2))
   (gr_line (start 185.76 0) (end 185.76 -64.25) (layer Dwgs.User) (width 0.2))
   (gr_line (start 193.96 -64.25) (end 193.96 0) (layer Edge.Cuts) (width 0.1))
@@ -542,8 +531,6 @@
   (gr_line (start 0 0) (end 193.96 0) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 0 -64.25) (end 0 0) (layer Edge.Cuts) (width 0.1))
 
-  (segment (start 25.76 -2.125) (end 25.76 -32.125) (width 0.25) (layer Dwgs.User) (net 0))
-  (segment (start 185.76 -2.125) (end 25.76 -2.125) (width 0.25) (layer Dwgs.User) (net 0))
   (segment (start 15.035 -2.1187) (end 15.01 -2.1187) (width 0.25) (layer F.Cu) (net 1) (status 30))
   (segment (start 13.8475 -3.9062) (end 8.8762 -3.9062) (width 0.25) (layer F.Cu) (net 1) (status 20))
   (segment (start 8.8762 -3.9062) (end 8.78 -3.81) (width 0.25) (layer F.Cu) (net 1) (status 30))

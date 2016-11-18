@@ -1,6 +1,6 @@
-update=2016-11-15 3:27:01 PM
+update=2016-11-18 5:05:25 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -94,11 +94,11 @@ LibName81=C:/Users/danie/Documents/WIP/Believotron/Believotron-Github/Believotro
 [pcbnew]
 version=1
 PageLayoutDescrFile=pageLayoutLowerLeft.kicad_wks
-LastNetListRead=LED_Strip.net
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
+LastNetListRead=Keyboard Pads.net
+PadDrill=3.3
+PadDrillOvalY=3.3
+PadSizeH=3.3
+PadSizeV=3.3
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3

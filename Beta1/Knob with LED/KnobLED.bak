@@ -85,7 +85,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -95,12 +95,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 6300 1600 3850 2450
-U 582E4C4F
-F0 "LED_Strip" 60
-F1 "LED_Strip.sch" 60
-$EndSheet
 $Sheet
 S 4350 6050 3800 2250
 U 582E5E18

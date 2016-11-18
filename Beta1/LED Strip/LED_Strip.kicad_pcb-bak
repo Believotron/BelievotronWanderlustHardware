@@ -2,11 +2,11 @@
 
   (general
     (links 418)
-    (no_connects 4)
+    (no_connects 2)
     (area -0.050001 -16.112501 194.010001 0.050001)
     (thickness 1.6)
     (drawings 13)
-    (tracks 861)
+    (tracks 864)
     (zones 0)
     (modules 225)
     (nets 74)
@@ -274,7 +274,7 @@
       (net 68 /D32))
   )
 
-  (module Liberry:single_0.1 (layer F.Cu) (tedit 5829F5BC) (tstamp 582E3678)
+  (module Liberry:single_0.1 (layer F.Cu) (tedit 582F8029) (tstamp 582E3678)
     (at 187.85 -8.7062)
     (descr "10 pins through hole IDC header")
     (tags "IDC header socket VASCH")
@@ -285,7 +285,7 @@
     (fp_text value CONN_01X01 (at 0 2.54) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0.11 -0.1838) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 68 /D32))
   )
 
@@ -3616,7 +3616,7 @@
       (net 51 "Net-(CLK31-Pad1)"))
   )
 
-  (module Liberry:single_0.1 (layer F.Cu) (tedit 5829F5BC) (tstamp 582E361E)
+  (module Liberry:single_0.1 (layer F.Cu) (tedit 582F803F) (tstamp 582E361E)
     (at 187.85 -6.35)
     (descr "10 pins through hole IDC header")
     (tags "IDC header socket VASCH")
@@ -3627,7 +3627,7 @@
     (fp_text value CONN_01X01 (at 0 2.54) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0.11 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 52 /CLK32))
   )
 
@@ -5771,7 +5771,7 @@
       (net 3 "Net-(CLK0-Pad1)"))
   )
 
-  (module Liberry:single_0.1 (layer F.Cu) (tedit 582F7957) (tstamp 582F7A8A)
+  (module Liberry:single_0.1 (layer F.Cu) (tedit 582F8012) (tstamp 582F7A8A)
     (at 190.39 -6.35)
     (descr "10 pins through hole IDC header")
     (tags "IDC header socket VASCH")
@@ -5782,7 +5782,7 @@
     (fp_text value CONN_01X01 (at 0 2.54) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0.11 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 52 /CLK32))
   )
 
@@ -5816,7 +5816,7 @@
       (net 10 "Net-(D0-Pad1)"))
   )
 
-  (module Liberry:single_0.1 (layer F.Cu) (tedit 582F7961) (tstamp 582F7A99)
+  (module Liberry:single_0.1 (layer F.Cu) (tedit 582F7FFF) (tstamp 582F7A99)
     (at 190.39 -8.89)
     (descr "10 pins through hole IDC header")
     (tags "IDC header socket VASCH")
@@ -5827,7 +5827,7 @@
     (fp_text value CONN_01X01 (at 0 2.54) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0.11 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 68 /D32))
   )
 
@@ -6662,6 +6662,7 @@
   (segment (start 178.66 -4.0156) (end 175.76 -4.0156) (width 0.25) (layer F.Cu) (net 51) (status 30))
   (segment (start 172.86 -4.0156) (end 175.76 -4.0156) (width 0.25) (layer F.Cu) (net 51) (status 30))
   (segment (start 171.51 -4.0156) (end 172.86 -4.0156) (width 0.25) (layer F.Cu) (net 51) (status 30))
+  (segment (start 187.85 -6.35) (end 190.39 -6.35) (width 0.25) (layer F.Cu) (net 52))
   (segment (start 185.76 -3.9062) (end 187.85 -5.9962) (width 0.25) (layer F.Cu) (net 52) (status 30))
   (segment (start 187.85 -5.9962) (end 187.85 -6.35) (width 0.25) (layer F.Cu) (net 52) (status 30))
   (segment (start 182.86 -4.0156) (end 185.76 -4.0156) (width 0.25) (layer F.Cu) (net 52) (status 30))
@@ -6756,6 +6757,8 @@
   (segment (start 172.86 -5.6156) (end 175.36 -5.6156) (width 0.25) (layer F.Cu) (net 67) (status 10))
   (segment (start 175.36 -5.6156) (end 175.76 -6.0156) (width 0.25) (layer F.Cu) (net 67) (status 20))
   (segment (start 171.51 -5.6156) (end 172.86 -5.6156) (width 0.25) (layer F.Cu) (net 67) (status 30))
+  (segment (start 187.96 -8.89) (end 190.5 -8.89) (width 0.25) (layer F.Cu) (net 68))
+  (segment (start 190.2062 -8.7062) (end 190.39 -8.89) (width 0.25) (layer F.Cu) (net 68))
   (segment (start 185.76 -5.9062) (end 186.259999 -6.406199) (width 0.25) (layer F.Cu) (net 68) (status 10))
   (segment (start 186.259999 -7.116199) (end 187.85 -8.7062) (width 0.25) (layer F.Cu) (net 68) (status 20))
   (segment (start 186.259999 -6.406199) (end 186.259999 -7.116199) (width 0.25) (layer F.Cu) (net 68))

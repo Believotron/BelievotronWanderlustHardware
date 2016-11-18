@@ -2,10 +2,10 @@
 
   (general
     (links 418)
-    (no_connects 2)
+    (no_connects 0)
     (area -0.050001 -16.112501 194.010001 0.050001)
     (thickness 1.6)
-    (drawings 13)
+    (drawings 14)
     (tracks 864)
     (zones 0)
     (modules 225)
@@ -5921,6 +5921,9 @@
       (net 36 /D16))
   )
 
+  (gr_text "PCBBTWL_LED32-Beta1 2016-11-18 Believotron Wanderlust 32CH Serial RGB APA102C LED Array of dazzling light. Light is truth. Use it to cast different perspectives and learn more, ever more truth.\n" (at 32.656 -8.128) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left))
+  )
   (gr_line (start 165.76 0) (end 165.76 -15.625) (layer Dwgs.User) (width 0.2))
   (gr_line (start 25.76 0) (end 25.76 -15.625) (layer Dwgs.User) (width 0.2))
   (gr_line (start 45.76 0) (end 45.76 -15.625) (layer Dwgs.User) (width 0.2))

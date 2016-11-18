@@ -494,14 +494,14 @@ $EndComp
 $Comp
 L CONN_01X01 MISO1
 U 1 1 582E561D
-P 11650 1750
-F 0 "MISO1" H 11850 1750 50  0000 C CNN
-F 1 "CONN_01X01" V 11750 1750 50  0001 C CNN
-F 2 "Liberry:single_0.1" H 11650 1750 50  0001 C CNN
-F 3 "" H 11650 1750 50  0000 C CNN
-F 4 "PCB" H 11650 1750 60  0001 C CNN "MFG"
-F 5 "ON_PCB" H 11650 1750 60  0001 C CNN "MPN"
-	1    11650 1750
+P 12050 1750
+F 0 "MISO1" H 12250 1750 50  0000 C CNN
+F 1 "CONN_01X01" V 12150 1750 50  0001 C CNN
+F 2 "Liberry:single_0.1" H 12050 1750 50  0001 C CNN
+F 3 "" H 12050 1750 50  0000 C CNN
+F 4 "PCB" H 12050 1750 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 12050 1750 60  0001 C CNN "MPN"
+	1    12050 1750
 	1    0    0    -1  
 $EndComp
 Text Label 9550 1800 0    60   ~ 0
@@ -544,105 +544,6 @@ F 5 "ON_PCB" H 8750 1200 60  0001 C CNN "MPN"
 	1    8750 1200
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2150 1400 2150 1300
-Wire Wire Line
-	2150 1750 2150 1700
-Wire Wire Line
-	2300 1550 2550 1550
-Wire Wire Line
-	2950 1400 2950 1300
-Wire Wire Line
-	2950 1750 2950 1700
-Wire Wire Line
-	3100 1550 3350 1550
-Wire Wire Line
-	3800 1400 3800 1300
-Wire Wire Line
-	3800 1750 3800 1700
-Wire Wire Line
-	3950 1550 4200 1550
-Wire Wire Line
-	4600 1400 4600 1300
-Wire Wire Line
-	4600 1750 4600 1700
-Wire Wire Line
-	4750 1550 5000 1550
-Wire Wire Line
-	5500 1400 5500 1300
-Wire Wire Line
-	5500 1750 5500 1700
-Wire Wire Line
-	5650 1550 5900 1550
-Wire Wire Line
-	6300 1400 6300 1300
-Wire Wire Line
-	6300 1750 6300 1700
-Wire Wire Line
-	6450 1550 6700 1550
-Wire Wire Line
-	7150 1400 7150 1300
-Wire Wire Line
-	7150 1750 7150 1700
-Wire Wire Line
-	7300 1550 7550 1550
-Wire Wire Line
-	7950 1400 7950 1300
-Wire Wire Line
-	7950 1750 7950 1700
-Wire Wire Line
-	8100 1550 8350 1550
-Wire Wire Line
-	9000 1150 9000 1250
-Wire Wire Line
-	9000 750  9000 850 
-Wire Wire Line
-	9650 1500 9800 1500
-Wire Wire Line
-	9650 800  9650 1500
-Wire Wire Line
-	9650 1400 9800 1400
-Wire Wire Line
-	9000 800  9650 800 
-Connection ~ 9000 800 
-Connection ~ 9650 1400
-Wire Wire Line
-	9800 1700 9550 1700
-Wire Wire Line
-	9550 1800 9800 1800
-Wire Wire Line
-	9800 1900 9550 1900
-Wire Wire Line
-	9800 2000 9550 2000
-Wire Wire Line
-	9800 2100 9550 2100
-Wire Wire Line
-	9800 2200 9550 2200
-Wire Wire Line
-	9800 2300 9550 2300
-Wire Wire Line
-	9800 2400 9550 2400
-Wire Wire Line
-	11350 1950 11350 2950
-Wire Wire Line
-	11350 2250 11200 2250
-Wire Wire Line
-	11350 1950 11200 1950
-Connection ~ 11350 2250
-Wire Wire Line
-	9400 2950 9800 2950
-Wire Wire Line
-	9400 2750 9800 2750
-Wire Wire Line
-	9400 2650 9800 2650
-Wire Wire Line
-	11450 1750 11200 1750
-Wire Wire Line
-	9600 1250 9650 1250
-Connection ~ 9650 1250
-Wire Wire Line
-	8950 1200 9000 1200
-Connection ~ 9000 1200
 $Comp
 L POT RV8
 U 1 1 582F40B5
@@ -1013,19 +914,6 @@ F 5 "ON_PCB" H 8800 5700 60  0001 C CNN "MPN"
 	1    8800 5700
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_01X01 MISO2
-U 1 1 582F4198
-P 11600 4500
-F 0 "MISO2" H 11800 4500 50  0000 C CNN
-F 1 "CONN_01X01" V 11700 4500 50  0001 C CNN
-F 2 "Liberry:single_0.1" H 11600 4500 50  0001 C CNN
-F 3 "" H 11600 4500 50  0000 C CNN
-F 4 "PCB" H 11600 4500 60  0001 C CNN "MFG"
-F 5 "ON_PCB" H 11600 4500 60  0001 C CNN "MPN"
-	1    11600 4500
-	1    0    0    -1  
-$EndComp
 Text Label 9500 4550 0    60   ~ 0
 P9
 Text Label 9500 4650 0    60   ~ 0
@@ -1040,6 +928,119 @@ Text Label 9500 5050 0    60   ~ 0
 P14
 Text Label 9500 5150 0    60   ~ 0
 P15
+Text Label 9450 2650 0    60   ~ 0
+MOSI
+Text Label 9450 2750 0    60   ~ 0
+SPICLK
+Text Label 9450 2950 0    60   ~ 0
+CS_R0_7
+Text Label 9350 5400 0    60   ~ 0
+MOSI
+Text Label 9350 5500 0    60   ~ 0
+SPICLK
+Text Label 9100 5700 0    60   ~ 0
+CS_LED_8_15
+Text Label 11350 1750 0    60   ~ 0
+MISO
+Wire Wire Line
+	2150 1400 2150 1300
+Wire Wire Line
+	2150 1750 2150 1700
+Wire Wire Line
+	2300 1550 2550 1550
+Wire Wire Line
+	2950 1400 2950 1300
+Wire Wire Line
+	2950 1750 2950 1700
+Wire Wire Line
+	3100 1550 3350 1550
+Wire Wire Line
+	3800 1400 3800 1300
+Wire Wire Line
+	3800 1750 3800 1700
+Wire Wire Line
+	3950 1550 4200 1550
+Wire Wire Line
+	4600 1400 4600 1300
+Wire Wire Line
+	4600 1750 4600 1700
+Wire Wire Line
+	4750 1550 5000 1550
+Wire Wire Line
+	5500 1400 5500 1300
+Wire Wire Line
+	5500 1750 5500 1700
+Wire Wire Line
+	5650 1550 5900 1550
+Wire Wire Line
+	6300 1400 6300 1300
+Wire Wire Line
+	6300 1750 6300 1700
+Wire Wire Line
+	6450 1550 6700 1550
+Wire Wire Line
+	7150 1400 7150 1300
+Wire Wire Line
+	7150 1750 7150 1700
+Wire Wire Line
+	7300 1550 7550 1550
+Wire Wire Line
+	7950 1400 7950 1300
+Wire Wire Line
+	7950 1750 7950 1700
+Wire Wire Line
+	8100 1550 8350 1550
+Wire Wire Line
+	9000 1150 9000 1250
+Wire Wire Line
+	9000 750  9000 850 
+Wire Wire Line
+	9650 1500 9800 1500
+Wire Wire Line
+	9650 800  9650 1500
+Wire Wire Line
+	9650 1400 9800 1400
+Wire Wire Line
+	9000 800  9650 800 
+Connection ~ 9000 800 
+Connection ~ 9650 1400
+Wire Wire Line
+	9800 1700 9550 1700
+Wire Wire Line
+	9550 1800 9800 1800
+Wire Wire Line
+	9800 1900 9550 1900
+Wire Wire Line
+	9800 2000 9550 2000
+Wire Wire Line
+	9800 2100 9550 2100
+Wire Wire Line
+	9800 2200 9550 2200
+Wire Wire Line
+	9800 2300 9550 2300
+Wire Wire Line
+	9800 2400 9550 2400
+Wire Wire Line
+	11350 1950 11350 2950
+Wire Wire Line
+	11350 2250 11200 2250
+Wire Wire Line
+	11350 1950 11200 1950
+Connection ~ 11350 2250
+Wire Wire Line
+	9400 2950 9800 2950
+Wire Wire Line
+	9400 2750 9800 2750
+Wire Wire Line
+	9400 2650 9800 2650
+Wire Wire Line
+	11200 1750 11850 1750
+Wire Wire Line
+	9600 1250 9650 1250
+Connection ~ 9650 1250
+Wire Wire Line
+	8950 1200 9000 1200
+Connection ~ 9000 1200
 Wire Wire Line
 	2100 4150 2100 4050
 Wire Wire Line
@@ -1132,17 +1133,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5400 9750 5400
 Wire Wire Line
-	11400 4500 11150 4500
-Text Label 9450 2650 0    60   ~ 0
-MOSI
-Text Label 9450 2750 0    60   ~ 0
-SPICLK
-Text Label 9450 2950 0    60   ~ 0
-CS_R0_7
-Text Label 9350 5400 0    60   ~ 0
-MOSI
-Text Label 9350 5500 0    60   ~ 0
-SPICLK
-Text Label 9100 5700 0    60   ~ 0
-CS_LED_8_15
+	11150 4500 12000 4500
+Text Label 11450 4500 0    60   ~ 0
+MISO
 $EndSCHEMATC

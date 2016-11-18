@@ -3,7 +3,7 @@
   (general
     (links 75)
     (no_connects 0)
-    (area -0.050001 -32.175001 194.010001 0.050001)
+    (area -0.325001 -33.148 194.285002 0.869)
     (thickness 1.6)
     (drawings 15)
     (tracks 359)
@@ -1041,7 +1041,7 @@
       (net 23 /CS_LED_8_15))
   )
 
-  (gr_text "Believotron Wanderlust 16CH Analog Pot to SPI - Beta 1 2016-11-18. You are more beautiful than you will ever know." (at 11.684 -15.748) (layer F.SilkS)
+  (gr_text "PCBBTWL_KN16 Beta 1 2016-11-18 Believotron Wanderlust 16CH Analog Pot to SPI. You are more beautiful than you will ever know." (at 11.684 -15.748) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
   (gr_line (start 185.76 -32.1253) (end 25.76 -32.1253) (layer Dwgs.User) (width 0.2))

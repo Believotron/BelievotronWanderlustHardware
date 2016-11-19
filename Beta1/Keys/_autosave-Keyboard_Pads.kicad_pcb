@@ -211,7 +211,7 @@
   )
 
   (module Liberry:MPR121TH (layer F.Cu) (tedit 582FE27A) (tstamp 582FEF5E)
-    (at 96.98 10.050001)
+    (at 6.69 -19.905)
     (path /582FE9DC)
     (fp_text reference U1 (at 1.27 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

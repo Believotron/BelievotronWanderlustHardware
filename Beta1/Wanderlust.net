@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/danie/Documents/WIP/Believotron/Believotron-Github/BelievotronWanderlustHardware/Beta1/Wanderlust.sch)
-    (date "2016-11-14 8:33:16 PM")
+    (date "2016-12-05 2:58:06 PM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -242,7 +242,7 @@
       (tstamp 582A3E13))
     (comp (ref U1)
       (value MPR121QR2)
-      (footprint Liberry:QFN-20-1EP_3x3mm_Pitch0.65mm)
+      (footprint Liberry:QFN-20-1EP_3x3mm_Pitch0.40mm)
       (libsource (lib believotron_wanderlust) (part MPR121QR2))
       (sheetpath (names /) (tstamps /))
       (tstamp 582A79AC)))
@@ -314,10 +314,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical believotron_wanderlust)
       (uri C:\Users\danie\Documents\WIP\Believotron\Believotron-Github\BelievotronWanderlustHardware\Liberry\believotron_wanderlust.lib)))
   (nets

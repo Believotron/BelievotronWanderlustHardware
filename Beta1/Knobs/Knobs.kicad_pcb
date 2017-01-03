@@ -3,7 +3,7 @@
   (general
     (links 80)
     (no_connects 0)
-    (area -0.050001 -31.537501 194.010001 -0.587499)
+    (area -0.325001 -33.233 194.285002 1.5576)
     (thickness 1.6)
     (drawings 15)
     (tracks 427)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFEFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010fc_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Believotron_Knobs_Gerber-2017-01-02/))
   )
 
   (net 0 "")

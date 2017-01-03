@@ -5,7 +5,7 @@
     (no_connects 0)
     (area -0.050001 -31.537501 26.550001 -0.587499)
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 68)
     (zones 0)
     (modules 17)
@@ -460,6 +460,9 @@
       (net 12 VCC))
   )
 
+  (gr_text "Believotron Wanderlust \n2CH XY Joy Mezzanine\n2017-01-02" (at 2.413 -16.0274 90) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)))
+  )
   (gr_line (start 185.76 -32.1253) (end 25.76 -32.1253) (layer Dwgs.User) (width 0.2))
   (gr_line (start 25.76 -0.0001) (end 25.76 -32.1253) (layer Dwgs.User) (width 0.2))
   (gr_line (start 45.76 -32.1253) (end 45.76 -0.0001) (layer Dwgs.User) (width 0.2))

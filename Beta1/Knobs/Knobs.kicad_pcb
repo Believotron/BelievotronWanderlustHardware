@@ -5,7 +5,7 @@
     (no_connects 0)
     (area -0.050001 -31.537501 194.010001 -0.587499)
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 423)
     (zones 0)
     (modules 39)
@@ -1147,6 +1147,9 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
+  (gr_text believotron.com (at 1.778 -18.288 90) (layer F.SilkS) (tstamp 588158CF)
+    (effects (font (size 1.15 1.15) (thickness 0.2875)))
+  )
   (gr_text "You are more beautiful than you will ever know." (at 155.448 -16.002) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

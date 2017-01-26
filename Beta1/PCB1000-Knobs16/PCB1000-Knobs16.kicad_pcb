@@ -2,7 +2,7 @@
 
   (general
     (links 86)
-    (no_connects 1)
+    (no_connects 0)
     (area 0 -33.148 193.960001 1.255473)
     (thickness 1.6)
     (drawings 20)
@@ -1149,7 +1149,7 @@
   (gr_text "You are more beautiful than you will ever know." (at 155.448 -16.002) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "2017-01-25 Believotron 16CH Analog Pot to SPI. Beta-1\nhttps://github.com/Believotron/BelievotronWanderlustHardware\n" (at 30.48 -16.256) (layer F.SilkS)
+  (gr_text "PCB1000_KNOBS16_2017-01-25 Believotron 16CH Analog Pot to SPI. Beta-1\nhttps://github.com/Believotron/BelievotronWanderlustHardware\n" (at 30.48 -16.256) (layer F.SilkS)
     (effects (font (size 1.25 1.25) (thickness 0.25)) (justify left))
   )
   (gr_line (start 185.76 -32.1253) (end 25.76 -32.1253) (layer Dwgs.User) (width 0.2))

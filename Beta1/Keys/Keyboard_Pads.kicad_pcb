@@ -3,7 +3,7 @@
   (general
     (links 46)
     (no_connects 0)
-    (area -0.050001 -64.160001 194.010001 -0.089999)
+    (area -0.050001 -65.273 194.010001 7.95)
     (thickness 1.6)
     (drawings 19)
     (tracks 290)
@@ -388,7 +388,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 5859F46A) (tstamp 58330FA3)
-    (at 190.96 -61.25)
+    (at 188.42 -61.25)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide

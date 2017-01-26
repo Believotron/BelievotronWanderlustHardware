@@ -2850,8 +2850,8 @@
       (net 29 "Net-(U3-PadP02)"))
   )
 
-  (gr_text "In Soviet Russia, adventure chooses you!" (at 101.6 -38.1) (layer B.SilkS)
-    (effects (font (size 5 5) (thickness 0.3)) (justify mirror))
+  (gr_text "Once upon a time, there was a you, \nand you made the most beautiful frequencies.\nThe darkness-at-the-end-of-the-universe\nquakes in agony at the beauty it will miss\nwhen your vibrations and their effects\ncease their joyful excitations." (at 190.5 -33.02) (layer B.SilkS)
+    (effects (font (size 4.5 4.5) (thickness 0.3)) (justify left mirror))
   )
   (gr_text "PCBBTKP Beta 1 - 2016-12-20\nBelievotron Wanderlust 1/2 H Keypad" (at 2.54 -7.874 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify left))

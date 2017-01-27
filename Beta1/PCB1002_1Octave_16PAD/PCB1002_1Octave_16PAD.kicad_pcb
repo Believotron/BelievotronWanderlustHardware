@@ -3,7 +3,7 @@
   (general
     (links 128)
     (no_connects 0)
-    (area 2.489999 -64.160001 191.470001 -0.089999)
+    (area -10.627639 -69.5074 191.470001 7.9024)
     (thickness 1.6)
     (drawings 57)
     (tracks 603)
@@ -3990,7 +3990,7 @@
       (net 32 "Net-(P111-Pad1)"))
   )
 
-  (gr_text "Open Source License at:\nhttps://github.com/Believotron/BelievotronWanderlustHardware\n\nMarketing pap: \nbelievotron.com\n\nThe good stuff:\nhttp://community.believotron.com/" (at 18.288 -21.844 90) (layer F.SilkS) (tstamp 588AD5E8)
+  (gr_text "Open Source License at:\nhttps://github.com/Believotron/BelievotronWanderlustHardware\n\nMarketing pap: \nbelievotron.com\n\nThe good stuff:\nhttp://community.believotron.com/" (at 18.542 -21.844 90) (layer F.SilkS) (tstamp 588AD5E8)
     (effects (font (size 0.45 0.45) (thickness 0.1125)) (justify left))
   )
   (gr_text +3.3V (at 3.81 -35.56) (layer B.SilkS) (tstamp 588AE3E9)
@@ -4089,7 +4089,7 @@
   (gr_text 10K (at 17.145 -35.56) (layer B.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
   )
-  (gr_text "PCB1002_Piano_16PAD_2017-01-26 Beta-1\nBelievotron Wanderlust 1/2 H Keypad\n1 Octave Piano, 16 Pads\n6CH Analog Mezzanine Expansion headers" (at 7.62 -37.592 90) (layer F.SilkS)
+  (gr_text "PCB1002_1OCTAVE_16PAD_2017-01-26 Beta-1\nBelievotron Wanderlust 1/2 H Keypad\n1 Octave Piano, 16 Pads\n6CH Analog Mezzanine Expansion headers" (at 7.62 -37.592 90) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify left))
   )
   (gr_line (start 185.76 -62.125) (end 25.76 -62.125) (layer Dwgs.User) (width 0.2))

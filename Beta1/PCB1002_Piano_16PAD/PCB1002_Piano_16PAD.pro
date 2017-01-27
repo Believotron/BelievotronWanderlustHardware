@@ -1,4 +1,4 @@
-update=2016-12-20 6:33:28 PM
+update=2017-01-27 12:26:25 AM
 version=1
 last_client=eeschema
 [general]
@@ -62,3 +62,13 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=believotron_wanderlust
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

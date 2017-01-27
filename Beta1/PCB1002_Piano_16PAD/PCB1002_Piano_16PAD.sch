@@ -1810,4 +1810,10 @@ F 5 "ON_PCB" H 3850 5900 60  0001 C CNN "MPN"
 	1    3850 5900
 	-1   0    0    1   
 $EndComp
+Text Notes 17700 6400 0    60   ~ 0
+NRFND
+Text Notes 17650 12400 0    60   ~ 0
+NRFND
+Text Notes 17600 17850 0    60   ~ 0
+NRFND
 $EndSCHEMATC

@@ -31,7 +31,7 @@ NetIExt=net
 version=1
 LibDir=../../Liberry
 [eeschema/libraries]
-LibName1=Keyboard Pads-rescue
+LibName1=believotron_wanderlust
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -61,7 +61,6 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=believotron_wanderlust
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

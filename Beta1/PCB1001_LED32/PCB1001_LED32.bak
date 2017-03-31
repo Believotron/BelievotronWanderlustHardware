@@ -697,8 +697,6 @@ F 5 "CC0603KRX7R9BB104" H 10900 1800 60  0001 C CNN "MPN"
 	1    10900 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 30000 19050 0    60   ~ 0
-LED strip, APA102C x 8, + 0.1" TH for debug / separation
 Text Label 17500 1150 0    60   ~ 0
 D4
 Text Label 17500 1350 0    60   ~ 0
@@ -3064,32 +3062,6 @@ F 5 "ON_PCB" H 8850 1050 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 DOUTB31
-U 1 1 58311E0F
-P 28150 8900
-F 0 "DOUTB31" H 28400 8900 50  0000 C CNN
-F 1 "CONN_01X01" V 28250 8900 50  0001 C CNN
-F 2 "Liberry:single_0.1" H 28150 8900 50  0001 C CNN
-F 3 "" H 28150 8900 50  0000 C CNN
-F 4 "PCB" H 28150 8900 60  0001 C CNN "MFG"
-F 5 "ON_PCB" H 28150 8900 60  0001 C CNN "MPN"
-	1    28150 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X01 CLKOUTB31
-U 1 1 58312577
-P 28150 9400
-F 0 "CLKOUTB31" H 28450 9400 50  0000 C CNN
-F 1 "CONN_01X01" V 28250 9400 50  0001 C CNN
-F 2 "Liberry:single_0.1" H 28150 9400 50  0001 C CNN
-F 3 "" H 28150 9400 50  0000 C CNN
-F 4 "PCB" H 28150 9400 60  0001 C CNN "MFG"
-F 5 "ON_PCB" H 28150 9400 60  0001 C CNN "MPN"
-	1    28150 9400
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X01 DB16
 U 1 1 5832C873
 P 8700 6200
@@ -3746,16 +3718,6 @@ Wire Wire Line
 	9050 1050 9050 1150
 Connection ~ 9050 1150
 Wire Wire Line
-	27950 8900 27900 8900
-Wire Wire Line
-	27900 8900 27900 9050
-Connection ~ 27900 9050
-Wire Wire Line
-	27950 9400 27900 9400
-Wire Wire Line
-	27900 9400 27900 9250
-Connection ~ 27900 9250
-Wire Wire Line
 	8900 6200 9000 6200
 Wire Wire Line
 	9000 6200 9000 6350
@@ -3893,4 +3855,14 @@ Wire Wire Line
 	14850 6550 15950 6550
 Wire Wire Line
 	24350 6550 25450 6550
+Text Notes 29300 20700 0    60   ~ 0
+Files and Open source MIT License: github.com/Believotron/BelievotronWanderlustHardware\nMarketing Pap: Believotron.com\nThe good stuff: community.believotron.com
+Text Notes 29650 21250 0    60   ~ 0
+Believotron Wanderlust 32 CH RGB LED PCB
+Text Notes 30500 21350 0    60   ~ 0
+2017-03-31
+Text Notes 32850 21350 0    60   ~ 0
+DATE
+Text Notes 29300 20800 0    60   ~ 0
+Author: Dazzling Duke of Lazers
 $EndSCHEMATC

@@ -697,8 +697,6 @@ F 5 "CC0603KRX7R9BB104" H 10900 1800 60  0001 C CNN "MPN"
 	1    10900 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 30000 19050 0    60   ~ 0
-LED strip, APA102C x 8, + 0.1" TH for debug / separation
 Text Label 17500 1150 0    60   ~ 0
 D4
 Text Label 17500 1350 0    60   ~ 0
@@ -2113,8 +2111,6 @@ F 5 "ON_PCB" H 28150 9250 60  0001 C CNN "MPN"
 	1    28150 9250
 	1    0    0    -1  
 $EndComp
-Text Notes 25200 10300 0    60   ~ 0
-LED strip, APA102C x 8, + 0.1" TH for debug / separation
 Text Label 26850 6350 0    60   ~ 0
 D24
 Text Label 26850 6550 0    60   ~ 0
@@ -3857,4 +3853,16 @@ Wire Wire Line
 	14850 6550 15950 6550
 Wire Wire Line
 	24350 6550 25450 6550
+Text Notes 29300 20700 0    60   ~ 0
+Files and Open source MIT License: github.com/Believotron/BelievotronWanderlustHardware\nMarketing Pap: Believotron.com\nThe good stuff: community.believotron.com
+Text Notes 29650 21250 0    60   ~ 0
+Believotron Wanderlust 32 CH RGB LED PCB
+Text Notes 30500 21350 0    60   ~ 0
+2017-03-31
+Text Notes 32850 21350 0    60   ~ 0
+DATE
+Text Notes 29300 20800 0    60   ~ 0
+Author: Dazzling Duke of Lazers
+Text Notes 1200 2650 0    60   ~ 0
+Short CS to +5V on downstream daisy chained PCBs.
 $EndSCHEMATC

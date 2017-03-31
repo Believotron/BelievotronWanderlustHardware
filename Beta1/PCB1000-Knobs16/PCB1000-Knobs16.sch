@@ -80,7 +80,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
 LIBS:believotron_wanderlust
-LIBS:Knobs-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
@@ -1303,4 +1302,12 @@ Wire Wire Line
 	5350 8950 5350 8650
 Wire Wire Line
 	5350 8650 5550 8650
+Text Notes 13450 10350 0    60   ~ 0
+2017-03-31
+Text Notes 12650 10250 0    60   ~ 0
+Believotron Wanderlust PCB 16 CH Analog Knob + JoyXY + Volume
+Text Notes 12350 9550 0    60   ~ 0
+\nOpen source via MIT License\ngithub.com/Believotron/BelievotronWanderlustHardware
+Text Notes 15850 10350 0    60   ~ 0
+Date
 $EndSCHEMATC

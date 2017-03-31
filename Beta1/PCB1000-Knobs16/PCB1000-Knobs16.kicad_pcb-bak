@@ -3,7 +3,7 @@
   (general
     (links 90)
     (no_connects 0)
-    (area -0.050001 -31.537501 199.090001 -0.587499)
+    (area -0.254 -33.148 199.136001 1.075)
     (thickness 1.6)
     (drawings 48)
     (tracks 407)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Believotron_Knobs_Gerber-2017-01-02/))
+      (outputdirectory PCB1000_Gerbers_2017-03-31/))
   )
 
   (net 0 "")

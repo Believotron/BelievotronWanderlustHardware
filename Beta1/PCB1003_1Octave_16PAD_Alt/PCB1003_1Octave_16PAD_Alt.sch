@@ -44,8 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 30000 19050 0    60   ~ 0
-LED strip, APA102C x 8, + 0.1" TH for debug / separation
 $Comp
 L +3.3V #PWR01
 U 1 1 582EA21A
@@ -2012,4 +2010,12 @@ Wire Wire Line
 	11550 15650 11550 14600
 Text Label 11550 15550 1    60   ~ 0
 CHIP_206
+Text Notes 29350 20750 0    60   ~ 0
+Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear, and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, \nthe good stuff is here: community.believotron.com\n
+Text Notes 30450 21350 0    60   ~ 0
+2017-03-31
+Text Notes 32900 21350 0    60   ~ 0
+DATE
+Text Notes 29650 21250 0    60   ~ 0
+Believotron Wanderlust 16 Keypay, 1 Octave Piano Cap touch pad to I2C
 $EndSCHEMATC

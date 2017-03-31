@@ -1967,49 +1967,51 @@ CHIP_211
 Wire Wire Line
 	10450 15650 10450 14600
 Text Label 10450 15550 1    60   ~ 0
-CHIP_200
+CHIP_202
 Wire Wire Line
 	10550 15650 10550 14600
 Text Label 10550 15550 1    60   ~ 0
-CHIP_201
+CHIP_207
 Wire Wire Line
 	10650 15650 10650 14600
 Text Label 10650 15550 1    60   ~ 0
-CHIP_202
+CHIP_201
 Wire Wire Line
 	10750 15650 10750 14600
 Text Label 10750 15550 1    60   ~ 0
-CHIP_203
+CHIP_208
 Wire Wire Line
 	10850 15650 10850 14600
 Text Label 10850 15550 1    60   ~ 0
-CHIP_204
+CHIP_203
 Wire Wire Line
 	10950 15650 10950 14600
 Text Label 10950 15550 1    60   ~ 0
-CHIP_205
+CHIP_200
 Wire Wire Line
 	11050 15650 11050 14600
 Text Label 11050 15550 1    60   ~ 0
-CHIP_206
+CHIP_209
 Wire Wire Line
 	11150 15650 11150 14600
 Text Label 11150 15550 1    60   ~ 0
-CHIP_207
+CHIP_204
 Wire Wire Line
 	11250 15650 11250 14600
 Text Label 11250 15550 1    60   ~ 0
-CHIP_208
+CHIP_210
 Wire Wire Line
 	11350 15650 11350 14600
 Text Label 11350 15550 1    60   ~ 0
-CHIP_209
+CHIP_205
 Wire Wire Line
 	11450 15650 11450 14600
 Text Label 11450 15550 1    60   ~ 0
-CHIP_210
+CHIP_211
 Wire Wire Line
 	11550 15650 11550 14600
 Text Label 11550 15550 1    60   ~ 0
-CHIP_211
+CHIP_206
+Text Notes 29350 20750 0    60   ~ 0
+Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear, and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, \nthe good stuff is here: community.believotron.com\n
 $EndSCHEMATC

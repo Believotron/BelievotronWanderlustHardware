@@ -1,6 +1,0 @@
-2017-02-24, Initial submission
-2017-03-02, "Believotron rear V2". Added 19.1 mm cutout
-2017-03-07, Updated Changelog dates to 2017
-            Updated Believotron rear V2.pdf from "V1" to "V2" to match file / version
-            Added screw hole to "Believotron top V2.pdf"
-            Moved 19.1mm hole on "Believotron rear V3.pdf"

@@ -452,19 +452,6 @@ F 3 "" H 11350 2950 50  0000 C CNN
 	1    11350 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X01 MISO1
-U 1 1 582E561D
-P 12050 1750
-F 0 "MISO1" H 12250 1750 50  0000 C CNN
-F 1 "CONN_01X01" V 12150 1750 50  0001 C CNN
-F 2 "Liberry:TH_0.1_1x2_Jumper" H 12050 1750 50  0001 C CNN
-F 3 "" H 12050 1750 50  0000 C CNN
-F 4 "PCB" H 12050 1750 60  0001 C CNN "MFG"
-F 5 "ON_PCB" H 12050 1750 60  0001 C CNN "MPN"
-	1    12050 1750
-	1    0    0    -1  
-$EndComp
 Text Label 9550 1800 0    60   ~ 0
 P1
 Text Label 9550 1900 0    60   ~ 0
@@ -863,9 +850,9 @@ SPI_CLK
 Text Label 9100 5700 0    60   ~ 0
 CS_8_15
 Text Label 11350 1750 0    60   ~ 0
-MISO
+SPI_MISO
 Text Label 11450 4500 0    60   ~ 0
-MISO
+SPI_MISO
 $Comp
 L XYJOY JOY0
 U 1 1 5880F7E5
@@ -1171,10 +1158,6 @@ F 3 "" H 12450 10000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15050 4700 15900 4700
-Text Label 15100 4700 0    60   ~ 0
-KB_IRQ
-Wire Wire Line
 	15050 2500 15900 2500
 Wire Wire Line
 	15050 2400 15900 2400
@@ -1186,30 +1169,6 @@ Text Label 15100 2100 0    60   ~ 0
 +3.3V
 Wire Wire Line
 	15050 2100 15900 2100
-Wire Wire Line
-	15050 3000 15900 3000
-Wire Wire Line
-	15050 3100 15900 3100
-Wire Wire Line
-	15050 3200 15900 3200
-Wire Wire Line
-	15050 3600 15900 3600
-Wire Wire Line
-	15050 3800 15900 3800
-Wire Wire Line
-	15050 3900 15900 3900
-Text Label 15100 3000 0    60   ~ 0
-KB_A0
-Text Label 15100 3100 0    60   ~ 0
-KB_A1
-Text Label 15100 3200 0    60   ~ 0
-KB_A2
-Text Label 15100 3600 0    60   ~ 0
-KB_A3
-Text Label 15100 3800 0    60   ~ 0
-KB_A4
-Text Label 15100 3900 0    60   ~ 0
-KB_A5
 $Comp
 L GND #PWR?
 U 1 1 591BA513
@@ -1262,10 +1221,6 @@ Connection ~ 15800 4900
 Text Label 15100 4900 0    60   ~ 0
 +3.3V
 Wire Wire Line
-	15050 3300 15900 3300
-Text Label 15100 3300 0    60   ~ 0
-SPI_CS_LED0
-Wire Wire Line
 	15050 4300 15900 4300
 Wire Wire Line
 	15050 4400 15900 4400
@@ -1301,10 +1256,6 @@ Text Label 15100 2300 0    60   ~ 0
 CS_0_7
 Text Label 15100 2200 0    60   ~ 0
 CS_8_15
-Wire Wire Line
-	15050 4200 15900 4200
-Text Label 15100 4200 0    60   ~ 0
-ANALOG_OUT
 Text Label 5200 8050 0    60   ~ 0
 JOY_0
 Text Label 5200 8600 0    60   ~ 0

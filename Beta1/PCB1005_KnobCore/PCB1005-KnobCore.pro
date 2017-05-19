@@ -1,4 +1,4 @@
-update=2017-03-31 12:05:56 PM
+update=2017-05-18 8:06:50 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -116,7 +116,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

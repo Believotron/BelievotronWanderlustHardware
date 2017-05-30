@@ -2,8 +2,8 @@
 
   (general
     (links 333)
-    (no_connects 1)
-    (area -0.050001 -50.050001 160.050001 0.050001)
+    (no_connects 0)
+    (area -0.635 -54.272143 185.860001 0.335)
     (thickness 1.6)
     (drawings 24)
     (tracks 855)
@@ -2238,7 +2238,7 @@
   (gr_text MCP3008T-I/SL (at 115.57 -43.18 90) (layer F.SilkS) (tstamp 591E6104)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text TCA9546A (at 142.24 -35.56) (layer F.SilkS)
+  (gr_text TCA9546ADR (at 142.24 -35.56) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear, and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, the good stuff is here: community.believotron.com\n" (at 154.305 -36.195) (layer B.SilkS) (tstamp 58DE8AEA)

@@ -1504,7 +1504,7 @@ JOY_3_0
 Text Label 13850 9550 0    60   ~ 0
 JOY_3_1
 Text Label 13850 9900 0    60   ~ 0
-JOY_2_SW
+JOY_3_SW
 Wire Wire Line
 	12600 8850 12300 8850
 Wire Wire Line

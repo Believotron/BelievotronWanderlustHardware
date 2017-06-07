@@ -591,9 +591,9 @@ F 3 "" H 4000 10100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 32900 21350 0    60   ~ 0
-2017-05-18
+2017-06-07
 Text Notes 29700 21250 0    60   ~ 0
-Believotron KnobCore 16CH + Vol + Analog + OLED
+Believotron KnobCore 8CH Knob + Vol + 4CH Joy + 3CH OLED
 Text Notes 29300 20500 0    60   ~ 0
 \nOpen source via MIT License\ngithub.com/Believotron/BelievotronWanderlustHardware
 Text Notes 30450 21350 0    60   ~ 0

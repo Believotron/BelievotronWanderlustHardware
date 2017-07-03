@@ -1,0 +1,439 @@
+EESchema Schematic File Version 2
+LIBS:believotron_wanderlust
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr D 34000 22000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 29350 20750 0    60   ~ 0
+Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear, and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, \nthe good stuff is here: community.believotron.com\n
+Text Notes 30450 21350 0    60   ~ 0
+2017-03-31
+Text Notes 32900 21350 0    60   ~ 0
+DATE
+Text Notes 29650 21250 0    60   ~ 0
+Believotron Wanderlust Beta1 to Axoloti v1.1 translator PCB
+$Comp
+L Axoloti_40Pin J1
+U 1 1 58DEE951
+P 11250 7000
+F 0 "J1" H 11550 12500 60  0000 C CNN
+F 1 "Axoloti_40Pin" H 12900 12550 60  0000 C CNN
+F 2 "Liberry:Axoloti-40x3" H 7800 9950 60  0001 C CNN
+F 3 "" H 7800 9950 60  0001 C CNN
+	1    11250 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4650 11250 4650
+Wire Wire Line
+	10400 2450 11250 2450
+Wire Wire Line
+	10400 2350 11250 2350
+Text Label 10450 2350 0    60   ~ 0
+I2C_SCL
+Text Label 10450 2450 0    60   ~ 0
+I2C_SDA
+Text Label 10450 2050 0    60   ~ 0
+VCC_A
+Wire Wire Line
+	10400 2050 11250 2050
+Wire Wire Line
+	10400 2950 11250 2950
+Wire Wire Line
+	10400 3050 11250 3050
+Wire Wire Line
+	10400 3150 11250 3150
+Wire Wire Line
+	10400 3550 11250 3550
+Wire Wire Line
+	10400 3750 11250 3750
+Wire Wire Line
+	10400 3850 11250 3850
+$Comp
+L GND #PWR02
+U 1 1 58DF1717
+P 10250 6250
+F 0 "#PWR02" H 10250 6000 50  0001 C CNN
+F 1 "GND" H 10250 6100 50  0000 C CNN
+F 2 "" H 10250 6250 50  0000 C CNN
+F 3 "" H 10250 6250 50  0000 C CNN
+	1    10250 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2550 10250 6250
+Wire Wire Line
+	10250 5250 11250 5250
+Wire Wire Line
+	10250 5150 11250 5150
+Connection ~ 10250 5250
+Wire Wire Line
+	10250 4750 11250 4750
+Connection ~ 10250 5150
+Wire Wire Line
+	10250 3950 11250 3950
+Connection ~ 10250 4750
+Wire Wire Line
+	10250 3350 11250 3350
+Connection ~ 10250 3950
+Wire Wire Line
+	10250 2550 11250 2550
+Connection ~ 10250 3350
+Wire Wire Line
+	10400 2650 11250 2650
+Text Label 10450 2650 0    60   ~ 0
+VCC_A
+Wire Wire Line
+	10400 3450 11250 3450
+Text Label 10450 3450 0    60   ~ 0
+VCC_B
+Wire Wire Line
+	10400 4050 11250 4050
+Text Label 10450 4050 0    60   ~ 0
+VCC_B
+Wire Wire Line
+	10400 4850 11250 4850
+Wire Wire Line
+	11250 4950 11150 4950
+Wire Wire Line
+	11150 4950 11150 4850
+Connection ~ 11150 4850
+Text Label 10450 4850 0    60   ~ 0
+VCC_C
+Wire Wire Line
+	10400 3250 11250 3250
+Wire Wire Line
+	10400 4250 11250 4250
+Wire Wire Line
+	10400 4350 11250 4350
+Wire Wire Line
+	10400 4450 11250 4450
+Text Label 10450 4450 0    60   ~ 0
+SPI_MOSI
+Text Label 10450 4350 0    60   ~ 0
+SPI_MISO
+Text Label 10450 4250 0    60   ~ 0
+SPI_CLK
+Wire Wire Line
+	10400 2750 11250 2750
+Wire Wire Line
+	10400 2850 11250 2850
+Wire Wire Line
+	10400 4550 11250 4550
+Wire Wire Line
+	10400 3650 11250 3650
+Wire Wire Line
+	10400 2250 11250 2250
+Wire Wire Line
+	10400 2150 11250 2150
+Text Label 10450 3650 0    60   ~ 0
+VOLUME
+Text Label 10450 2250 0    60   ~ 0
+CS_01
+Text Label 10450 2150 0    60   ~ 0
+CS_00
+Wire Wire Line
+	10400 4150 11250 4150
+Text Label 10450 4150 0    60   ~ 0
+ANALOG_OUT
+Text Notes 3650 1000 0    157  ~ 0
+Believotron Wanderlust Beta 1 to Axoloti Core v1.1 translator board
+$Comp
+L CONN_01X01 KNOB_ANALOG_OUT0
+U 1 1 58E02046
+P 9600 8450
+F 0 "KNOB_ANALOG_OUT0" H 10450 8450 50  0000 R CNN
+F 1 "CONN_01X01" V 9700 8450 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 9600 8450 50  0001 C CNN
+F 3 "" H 9600 8450 50  0000 C CNN
+F 4 "PCB" H 9600 8450 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 9600 8450 60  0001 C CNN "MPN"
+	1    9600 8450
+	-1   0    0    1   
+$EndComp
+Text Label 9900 8450 0    60   ~ 0
+ANALOG_OUT
+Wire Wire Line
+	9800 8450 10550 8450
+$Comp
+L USB-K J?
+U 1 1 595A99F2
+P 13250 9050
+F 0 "J?" H 14250 10500 60  0000 C CNN
+F 1 "USB-K" H 14250 10350 60  0000 C CNN
+F 2 "Liberry:USB-K_12401610E4_2A" H 13300 8950 60  0001 C CNN
+F 3 "" H 13300 8950 60  0001 C CNN
+	1    13250 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 595A99F9
+P 12100 10550
+F 0 "#PWR?" H 12100 10300 50  0001 C CNN
+F 1 "GND" H 12100 10400 50  0000 C CNN
+F 2 "" H 12100 10550 50  0000 C CNN
+F 3 "" H 12100 10550 50  0000 C CNN
+	1    12100 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 595A99FF
+P 12200 7650
+F 0 "#PWR?" H 12200 7500 50  0001 C CNN
+F 1 "+3.3V" H 12200 7790 50  0000 C CNN
+F 2 "" H 12200 7650 50  0000 C CNN
+F 3 "" H 12200 7650 50  0000 C CNN
+	1    12200 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 10250 12100 10250
+Wire Wire Line
+	12100 7850 12100 10550
+Wire Wire Line
+	13250 9150 12100 9150
+Connection ~ 12100 10250
+Wire Wire Line
+	13250 8950 12100 8950
+Connection ~ 12100 9150
+Wire Wire Line
+	13250 7850 12100 7850
+Connection ~ 12100 8950
+Wire Wire Line
+	13250 8150 12200 8150
+Wire Wire Line
+	12200 7650 12200 9950
+Wire Wire Line
+	12200 8650 13250 8650
+Connection ~ 12200 8150
+Wire Wire Line
+	12200 9450 13250 9450
+Connection ~ 12200 8650
+Wire Wire Line
+	12200 9950 13250 9950
+Connection ~ 12200 9450
+Wire Wire Line
+	13250 8850 12500 8850
+Wire Wire Line
+	13250 8750 12500 8750
+Wire Wire Line
+	11750 8550 13250 8550
+Wire Wire Line
+	11750 8450 13250 8450
+Wire Wire Line
+	11750 8350 13250 8350
+Wire Wire Line
+	11750 8250 13250 8250
+Wire Wire Line
+	11750 8050 13250 8050
+Wire Wire Line
+	13250 7950 12500 7950
+Wire Wire Line
+	13250 9250 12500 9250
+Wire Wire Line
+	13250 9350 12500 9350
+Wire Wire Line
+	11700 9550 13250 9550
+Wire Wire Line
+	11700 9650 13250 9650
+Wire Wire Line
+	11700 9750 13250 9750
+Wire Wire Line
+	11700 9850 13250 9850
+Wire Wire Line
+	13250 10050 12500 10050
+Wire Wire Line
+	13250 10150 12500 10150
+Text Label 12600 8850 0    60   ~ 0
+MOSI
+Text Label 12600 8750 0    60   ~ 0
+SPICLK
+$Comp
+L CONN_01X01 MISO?
+U 1 1 595A9A29
+P 11550 8550
+F 0 "MISO?" H 11750 8550 50  0000 C CNN
+F 1 "CONN_01X01" V 11650 8550 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11550 8550 50  0001 C CNN
+F 3 "" H 11550 8550 50  0000 C CNN
+F 4 "PCB" H 11550 8550 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11550 8550 60  0001 C CNN "MPN"
+	1    11550 8550
+	-1   0    0    1   
+$EndComp
+Text Label 12600 7950 0    60   ~ 0
+CS_00
+$Comp
+L CONN_01X01 SPI_CS_8_?
+U 1 1 595A9A33
+P 11550 8050
+F 0 "SPI_CS_8_?" H 11900 8050 50  0000 C CNN
+F 1 "CONN_01X01" V 11650 8050 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11550 8050 50  0001 C CNN
+F 3 "" H 11550 8050 50  0000 C CNN
+F 4 "PCB" H 11550 8050 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11550 8050 60  0001 C CNN "MPN"
+	1    11550 8050
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A3C
+P 11550 8250
+F 0 "TEST?" H 11900 8250 50  0000 C CNN
+F 1 "CONN_01X01" V 11650 8250 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11550 8250 50  0001 C CNN
+F 3 "" H 11550 8250 50  0000 C CNN
+F 4 "PCB" H 11550 8250 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11550 8250 60  0001 C CNN "MPN"
+	1    11550 8250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A45
+P 11550 8350
+F 0 "TEST?" H 11900 8350 50  0000 C CNN
+F 1 "CONN_01X01" V 11650 8350 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11550 8350 50  0001 C CNN
+F 3 "" H 11550 8350 50  0000 C CNN
+F 4 "PCB" H 11550 8350 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11550 8350 60  0001 C CNN "MPN"
+	1    11550 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A4E
+P 11550 8450
+F 0 "TEST?" H 11900 8450 50  0000 C CNN
+F 1 "CONN_01X01" V 11650 8450 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11550 8450 50  0001 C CNN
+F 3 "" H 11550 8450 50  0000 C CNN
+F 4 "PCB" H 11550 8450 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11550 8450 60  0001 C CNN "MPN"
+	1    11550 8450
+	-1   0    0    1   
+$EndComp
+Text Label 12600 9250 0    60   ~ 0
+VOLUME
+Text Label 12600 9350 0    60   ~ 0
+JOY0
+Text Label 12600 10150 0    60   ~ 0
+JOY_SW
+Text Label 12600 10050 0    60   ~ 0
+JOY1
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A5B
+P 11500 9550
+F 0 "TEST?" H 11850 9550 50  0000 C CNN
+F 1 "CONN_01X01" V 11600 9550 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11500 9550 50  0001 C CNN
+F 3 "" H 11500 9550 50  0000 C CNN
+F 4 "PCB" H 11500 9550 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11500 9550 60  0001 C CNN "MPN"
+	1    11500 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A64
+P 11500 9650
+F 0 "TEST?" H 11850 9650 50  0000 C CNN
+F 1 "CONN_01X01" V 11600 9650 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11500 9650 50  0001 C CNN
+F 3 "" H 11500 9650 50  0000 C CNN
+F 4 "PCB" H 11500 9650 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11500 9650 60  0001 C CNN "MPN"
+	1    11500 9650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A6D
+P 11500 9750
+F 0 "TEST?" H 11850 9750 50  0000 C CNN
+F 1 "CONN_01X01" V 11600 9750 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11500 9750 50  0001 C CNN
+F 3 "" H 11500 9750 50  0000 C CNN
+F 4 "PCB" H 11500 9750 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11500 9750 60  0001 C CNN "MPN"
+	1    11500 9750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 TEST?
+U 1 1 595A9A76
+P 11500 9850
+F 0 "TEST?" H 11850 9850 50  0000 C CNN
+F 1 "CONN_01X01" V 11600 9850 50  0001 C CNN
+F 2 "Liberry:TH_0.1_1x2_Jumper" H 11500 9850 50  0001 C CNN
+F 3 "" H 11500 9850 50  0000 C CNN
+F 4 "PCB" H 11500 9850 60  0001 C CNN "MFG"
+F 5 "ON_PCB" H 11500 9850 60  0001 C CNN "MPN"
+	1    11500 9850
+	-1   0    0    1   
+$EndComp
+Text Label 12500 9750 0    60   ~ 0
+TEST5
+Text Label 12500 9850 0    60   ~ 0
+TEST6
+Text Label 12500 9650 0    60   ~ 0
+TEST4
+Text Label 12500 9550 0    60   ~ 0
+TEST3
+Text Label 12500 8450 0    60   ~ 0
+SERIAL_RX
+Text Label 12500 8350 0    60   ~ 0
+SERIAL_TX
+Text Label 12500 8250 0    60   ~ 0
+TEST0
+Text Label 12600 8050 0    60   ~ 0
+CS_01
+Text Label 10450 3750 0    60   ~ 0
+SERIAL_TX
+Text Label 10450 3850 0    60   ~ 0
+SERIAL_RX
+$EndSCHEMATC

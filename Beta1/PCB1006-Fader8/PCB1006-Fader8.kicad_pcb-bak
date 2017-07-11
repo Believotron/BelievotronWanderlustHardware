@@ -3,7 +3,7 @@
   (general
     (links 112)
     (no_connects 0)
-    (area -0.050001 -62.050001 169.050001 0.050001)
+    (area -6.318096 -63.75 185.860001 1.355001)
     (thickness 1.6)
     (drawings 49)
     (tracks 428)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory PCB1006_Gerbers_2017-06-09/))
+      (outputdirectory PCB1006-Fader8_Gerbers_2017-07-11/))
   )
 
   (net 0 "")
@@ -1431,7 +1431,7 @@
   (gr_text "PS45M-0MC2BR10K x8" (at 163.02 -28.49 90) (layer F.SilkS) (tstamp 593B1561)
     (effects (font (size 1.15 1.15) (thickness 0.2875)))
   )
-  (gr_text "Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear,         and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, the good stuff is here: community.believotron.com\n" (at 168 -53.125) (layer B.SilkS) (tstamp 58DE8AEA)
+  (gr_text "Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear, and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, the good stuff is here: community.believotron.com\n" (at 168 -53.125) (layer B.SilkS) (tstamp 58DE8AEA)
     (effects (font (size 0.6 0.6) (thickness 0.15)) (justify left mirror))
   )
   (gr_line (start 11.89 -4.995) (end 6.81 -4.995) (layer F.SilkS) (width 0.2))

@@ -440,7 +440,7 @@ F 3 "" H 9000 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9550 1700 0    60   ~ 0
-P0
+P7
 $Comp
 L GND #PWR019
 U 1 1 582E4C7F
@@ -453,19 +453,19 @@ F 3 "" H 11350 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9550 1800 0    60   ~ 0
-P1
-Text Label 9550 1900 0    60   ~ 0
-P2
-Text Label 9550 2000 0    60   ~ 0
-P3
-Text Label 9550 2100 0    60   ~ 0
-P4
-Text Label 9550 2200 0    60   ~ 0
-P5
-Text Label 9550 2300 0    60   ~ 0
 P6
+Text Label 9550 1900 0    60   ~ 0
+P5
+Text Label 9550 2000 0    60   ~ 0
+P4
+Text Label 9550 2100 0    60   ~ 0
+P3
+Text Label 9550 2200 0    60   ~ 0
+P2
+Text Label 9550 2300 0    60   ~ 0
+P1
 Text Label 9550 2400 0    60   ~ 0
-P7
+P0
 $Comp
 L MCP3008T-I/SL U2
 U 1 1 582F415D
@@ -1521,8 +1521,6 @@ Text Label 15100 3100 0    60   ~ 0
 JOY_K0
 Text Label 15100 3200 0    60   ~ 0
 JOY_K1
-Text Label 15100 3600 0    60   ~ 0
-JOY_K_SW
 Wire Wire Line
 	15900 3100 15050 3100
 Wire Wire Line

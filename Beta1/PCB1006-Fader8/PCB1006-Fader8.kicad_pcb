@@ -2,8 +2,8 @@
 
   (general
     (links 114)
-    (no_connects 1)
-    (area -0.050001 -62.050001 202.050001 0.050001)
+    (no_connects 0)
+    (area -6.318096 -63.75 203.660001 1.101001)
     (thickness 1.6)
     (drawings 49)
     (tracks 447)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory PCB1006-Fader8_Gerbers_2017-07-11/))
+      (outputdirectory Output/PCB1006_2017-07-17_Gerbers/))
   )
 
   (net 0 "")

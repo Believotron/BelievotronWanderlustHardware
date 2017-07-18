@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory PCB1005_2017-07-11_Gerber/))
+      (outputdirectory Output/PCB1005_2017-07-17_Gerbers/))
   )
 
   (net 0 "")

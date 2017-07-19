@@ -3,7 +3,7 @@
   (general
     (links 88)
     (no_connects 0)
-    (area -0.050001 -48.050001 160.050001 0.050001)
+    (area -9.318096 -50.8 185.860001 1.075)
     (thickness 1.6)
     (drawings 17)
     (tracks 223)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory PCB1007-Axoloti_USB-K_2017-07-11_Gerbers/))
+      (outputdirectory Output/PCB1007-2017-07-19_Gerbers/))
   )
 
   (net 0 "")
@@ -967,7 +967,7 @@
   (gr_text believotron.com (at 158.75 -25.908 90) (layer F.SilkS) (tstamp 588158CF)
     (effects (font (size 1.15 1.15) (thickness 0.15)))
   )
-  (gr_text "PCB1007_USB-K Breakout 2017-07-19\nhttps://github.com/Believotron/BelievotronWanderlustHardware\n" (at 35.56 -45.72) (layer F.SilkS)
+  (gr_text "PCB1007_FPC Breakout 2017-07-19\nhttps://github.com/Believotron/BelievotronWanderlustHardware\n" (at 35.56 -45.72) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_line (start 185.76 -32.1253) (end 25.76 -32.1253) (layer Dwgs.User) (width 0.2))

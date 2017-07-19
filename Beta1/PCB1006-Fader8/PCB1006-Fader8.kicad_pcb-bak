@@ -1425,7 +1425,7 @@
   (gr_text "Keep your fingers finging" (at 63.96 -31.03 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "PCB1006_Fader8-2017-07-17\nBelievotron 8CH Analog Slider \nPot to SPI. Beta-1\nhttps://github.com/Believotron/\nBelievotronWanderlustHardware\n" (at 7.62 -58.42) (layer F.SilkS)
+  (gr_text "PCB1006_Fader8-2017-07-19\nBelievotron 8CH Analog Slider \nPot to SPI. Beta-1\nhttps://github.com/Believotron/\nBelievotronWanderlustHardware\n" (at 7.62 -58.42) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify left))
   )
   (gr_line (start 185.76 -32.1253) (end 25.76 -32.1253) (layer Dwgs.User) (width 0.2))

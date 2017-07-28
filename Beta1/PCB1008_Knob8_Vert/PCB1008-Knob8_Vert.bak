@@ -1127,8 +1127,6 @@ Connection ~ 14900 3400
 Wire Wire Line
 	14650 2700 15900 2700
 Wire Wire Line
-	14650 3500 15900 3500
-Wire Wire Line
 	14650 4100 15900 4100
 Wire Wire Line
 	14650 4900 15900 4900
@@ -1517,10 +1515,6 @@ Connection ~ 26650 4800
 Wire Wire Line
 	26450 4900 27550 4900
 Connection ~ 26450 3950
-Text Label 15100 3100 0    60   ~ 0
-JOY_K0
-Text Label 15100 3200 0    60   ~ 0
-JOY_K1
 Wire Wire Line
 	15900 3100 15050 3100
 Wire Wire Line

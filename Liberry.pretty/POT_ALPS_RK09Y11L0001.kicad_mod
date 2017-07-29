@@ -23,7 +23,12 @@
   (pad 1 thru_hole circle (at -2.5 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask))
   (model Liberry.pretty/3D_Files/RK09Y11L0001.wrl
     (at (xyz 0 0.07000000000000001 0.255906))
-    (scale (xyz 0.3937007874015748 0.3937007874015748 0.3937007874015748))
+    (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz -90 0 180))
+  )
+  (model ../../../../../../Users/danie/Documents/WIP/Believotron/Believotron-Github/BelievotronWanderlustHardware/Liberry.pretty/3D_Files/RK09Y11L0001.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

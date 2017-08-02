@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
-    (links 60)
-    (no_connects 42)
-    (area -0.050001 -15.925001 160.050001 0.050001)
+    (links 44)
+    (no_connects 28)
+    (area -1.016 -63.02 185.860001 1.075)
     (thickness 1.6)
     (drawings 18)
     (tracks 0)
@@ -670,13 +670,13 @@
     )
   )
 
-  (gr_text "All R=10KΩ\nAll C=0.1uF" (at 50.8 -2.54 360) (layer F.SilkS) (tstamp 593850A5)
+  (gr_text "All R=10KΩ\nAll C=0.1uF" (at 50.8 -2.54) (layer F.SilkS) (tstamp 593850A5)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Open source MIT license files at: github.com/Believotron/BelievotronWanderlustHardware\nReplacement parts, upgrades, updates, new gear, and marketing pap: Believotron.com\nFor help, bug reporting, dev-blogs, or joy at your bonkers-cool creation, \nthe good stuff is here: community.believotron.com\n" (at 132.08 -3.302) (layer B.SilkS) (tstamp 58DE8AEA)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
   )
-  (gr_text believotron.com (at 33.02 -2.54 360) (layer F.SilkS) (tstamp 588158CF)
+  (gr_text believotron.com (at 33.782 -2.54) (layer F.SilkS) (tstamp 588158CF)
     (effects (font (size 1.15 1.15) (thickness 0.15)))
   )
   (gr_text "PCB1008_Knob8Vert_2017-07-28 \ngithub.com/Believotron/BelievotronWanderlustHardware\n" (at 96.52 -2.54) (layer F.SilkS)

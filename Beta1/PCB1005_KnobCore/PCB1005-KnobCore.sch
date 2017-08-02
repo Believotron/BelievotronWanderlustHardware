@@ -682,10 +682,6 @@ F 3 "" H 2650 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 4500 2650 4500
-Wire Wire Line
-	2650 4500 2650 5100
-Wire Wire Line
 	2450 4650 2650 4650
 Connection ~ 2650 4650
 Wire Wire Line
@@ -774,4 +770,10 @@ Text Notes 2100 2050 0    60   ~ 0
 OLED Connectors\n
 Text Notes 5350 2200 0    60   ~ 0
 Knob connectors
+Wire Wire Line
+	2650 4650 2650 5100
+Wire Wire Line
+	2450 4500 3150 4500
+Text Label 2550 4500 0    60   ~ 0
+!OLED_RESET
 $EndSCHEMATC

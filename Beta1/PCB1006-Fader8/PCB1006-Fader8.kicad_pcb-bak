@@ -3,7 +3,7 @@
   (general
     (links 109)
     (no_connects 0)
-    (area -0.050001 -62.050001 202.050001 0.050001)
+    (area -1.815 -65.024 206.756001 3.048001)
     (thickness 1.6)
     (drawings 22)
     (tracks 277)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Output/PCB1006_2017-07-17_Gerbers/))
+      (outputdirectory Output/PCB1006-2017-07-19_Gerbers/))
   )
 
   (net 0 "")

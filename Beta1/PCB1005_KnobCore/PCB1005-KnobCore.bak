@@ -240,12 +240,10 @@ Text Label 15100 4400 0    60   ~ 0
 SPI_MISO
 Text Label 15100 4300 0    60   ~ 0
 SPI_CLK
-Text Label 15100 2800 0    60   ~ 0
+Text Label 15150 2900 0    60   ~ 0
 JOY_0_SW
-Text Label 15100 2900 0    60   ~ 0
+Text Label 15150 3000 0    60   ~ 0
 JOY_1_SW
-Text Label 15100 4600 0    60   ~ 0
-JOY_2_SW
 Text Label 15100 2300 0    60   ~ 0
 CS_0_7
 Text Label 15100 2200 0    60   ~ 0
@@ -267,8 +265,6 @@ F 3 "" H 14900 1950 50  0000 C CNN
 	1    14900 1950
 	1    0    0    -1  
 $EndComp
-Text Label 15100 3000 0    60   ~ 0
-!OLED_RESET
 Wire Wire Line
 	8950 3900 8950 4000
 Wire Wire Line
@@ -391,8 +387,6 @@ Wire Wire Line
 	15050 2200 15900 2200
 Wire Wire Line
 	14900 2100 14900 1950
-Wire Wire Line
-	15900 3000 15050 3000
 Wire Wire Line
 	14650 2100 14650 4900
 Connection ~ 14900 2100
@@ -554,8 +548,6 @@ Wire Wire Line
 	13700 9900 14300 9900
 Wire Wire Line
 	15900 4700 15050 4700
-Text Label 15100 4700 0    60   ~ 0
-JOY_3_SW
 Text Label 15100 3700 0    60   ~ 0
 VOLUME
 Wire Wire Line
@@ -682,10 +674,6 @@ F 3 "" H 2650 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 4500 2650 4500
-Wire Wire Line
-	2650 4500 2650 5100
-Wire Wire Line
 	2450 4650 2650 4650
 Connection ~ 2650 4650
 Wire Wire Line
@@ -774,4 +762,147 @@ Text Notes 2100 2050 0    60   ~ 0
 OLED Connectors\n
 Text Notes 5350 2200 0    60   ~ 0
 Knob connectors
+Wire Wire Line
+	2650 4650 2650 5100
+Wire Wire Line
+	2450 4500 3150 4500
+Text Label 2550 4500 0    60   ~ 0
+!OLED_RESET
+Text Label 19550 3850 0    60   ~ 0
+SPI_MOSI
+Text Label 19550 3750 0    60   ~ 0
+SPI_CLK
+Text Label 19100 3250 0    60   ~ 0
+CS_0_7
+Text Label 19450 3450 0    60   ~ 0
+VOLUME
+Text Label 19300 3150 0    60   ~ 0
+JOY_3_SW
+Text Label 18750 4150 0    60   ~ 0
+I2C_SCL
+Text Label 18750 4050 0    60   ~ 0
+I2C_SDA
+Text Label 18750 3650 0    60   ~ 0
+RX
+Text Label 18750 3550 0    60   ~ 0
+TX
+Text Label 19100 3350 0    60   ~ 0
+CS_8_15
+Text Label 19550 3950 0    60   ~ 0
+SPI_MISO
+$Comp
+L +3.3V #PWR019
+U 1 1 5985024A
+P 20000 2300
+F 0 "#PWR019" H 20000 2150 50  0001 C CNN
+F 1 "+3.3V" H 20000 2440 50  0000 C CNN
+F 2 "" H 20000 2300 50  0000 C CNN
+F 3 "" H 20000 2300 50  0000 C CNN
+	1    20000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 59850250
+P 20050 4550
+F 0 "#PWR020" H 20050 4300 50  0001 C CNN
+F 1 "GND" H 20050 4400 50  0000 C CNN
+F 2 "" H 20050 4550 50  0000 C CNN
+F 3 "" H 20050 4550 50  0000 C CNN
+	1    20050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPC_20POS J2
+U 1 1 59850256
+P 20400 4350
+F 0 "J2" H 20450 4500 60  0000 C CNN
+F 1 "FPC_20POS" H 20500 2300 60  0000 C CNN
+F 2 "Liberry:FFC_1MM_20POS_MOLEX_52271-2079" H 20200 3900 60  0001 C CNN
+F 3 "" H 20200 3900 60  0001 C CNN
+	1    20400 4350
+	1    0    0    1   
+$EndComp
+Text Label 19300 3050 0    60   ~ 0
+JOY_2_SW
+Text Label 19300 2950 0    60   ~ 0
+JOY_1_SW
+Text Label 19250 2650 0    60   ~ 0
+ANALOG_OUT
+Text Label 19300 2750 0    60   ~ 0
+!OLED_RESET
+Text Label 19300 2850 0    60   ~ 0
+JOY_0_SW
+Wire Wire Line
+	18450 3850 20200 3850
+Wire Wire Line
+	18450 3750 20200 3750
+Wire Wire Line
+	18450 3950 20200 3950
+Wire Wire Line
+	18450 3650 20200 3650
+Wire Wire Line
+	18450 3550 20200 3550
+Wire Wire Line
+	18450 3250 20200 3250
+Wire Wire Line
+	18450 3450 20200 3450
+Wire Wire Line
+	18450 3150 20200 3150
+Wire Wire Line
+	18450 4050 20200 4050
+Wire Wire Line
+	18450 4150 20200 4150
+Wire Wire Line
+	20200 2450 20000 2450
+Wire Wire Line
+	20000 2300 20000 2550
+Connection ~ 20000 2450
+Wire Wire Line
+	18450 4250 20200 4250
+Wire Wire Line
+	20050 4250 20050 4550
+Connection ~ 20050 4350
+Wire Wire Line
+	18450 3350 20200 3350
+Wire Wire Line
+	18450 3050 20200 3050
+Wire Wire Line
+	18450 2950 20200 2950
+Wire Wire Line
+	18450 2650 20200 2650
+Wire Wire Line
+	18450 2750 20200 2750
+Wire Wire Line
+	18450 2850 20200 2850
+Connection ~ 20000 2550
+Wire Wire Line
+	20200 4350 20050 4350
+Connection ~ 20050 4250
+Wire Wire Line
+	18450 2550 20200 2550
+Wire Wire Line
+	15900 4200 15050 4200
+Text Label 15100 4200 0    60   ~ 0
+ANALOG_OUT
+Text Label 15150 2800 0    60   ~ 0
+!OLED_RESET
+Text Label 15150 3100 0    60   ~ 0
+JOY_2_SW
+Text Label 15150 3200 0    60   ~ 0
+JOY_3_SW
+Text Notes 18650 2750 0    60   ~ 0
+PC0
+Text Notes 18650 2850 0    60   ~ 0
+PC1
+Text Notes 18650 2950 0    60   ~ 0
+PC2
+Text Notes 18650 3050 0    60   ~ 0
+PC3
+Text Notes 18650 3150 0    60   ~ 0
+PC4
+Wire Wire Line
+	15900 3000 15050 3000
+Wire Wire Line
+	15900 3500 14650 3500
 $EndSCHEMATC

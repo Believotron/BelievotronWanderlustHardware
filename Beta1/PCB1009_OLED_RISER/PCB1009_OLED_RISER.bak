@@ -80,6 +80,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
 LIBS:believotron_wanderlust
+LIBS:PCB1009_OLED_RISER-cache
 EELAYER 25 0
 EELAYER END
 $Descr D 34000 22000
@@ -657,10 +658,6 @@ F 3 "" H 18100 5950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17900 5350 18100 5350
-Wire Wire Line
-	18100 5350 18100 5950
-Wire Wire Line
 	17900 5500 18100 5500
 Connection ~ 18100 5500
 Wire Wire Line
@@ -669,4 +666,10 @@ Connection ~ 18100 5650
 Wire Wire Line
 	17900 5800 18100 5800
 Connection ~ 18100 5800
+Wire Wire Line
+	18100 5500 18100 5950
+Wire Wire Line
+	17900 5350 19100 5350
+Text Label 17950 5350 0    60   ~ 0
+!OLED_RESET
 $EndSCHEMATC

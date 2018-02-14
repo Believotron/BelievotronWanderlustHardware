@@ -106,7 +106,7 @@ F 3 "" H 14000 4800 60  0001 C CNN
 F 4 "Microchip" H 14000 4800 60  0001 C CNN "MFG"
 F 5 "MCP3008T-I/SL" H 14000 4800 60  0001 C CNN "MPN"
 	1    14000 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C1000
@@ -119,7 +119,7 @@ F 3 "" H 12500 3700 50  0000 C CNN
 F 4 "Yaego" H 12500 3700 60  0001 C CNN "MFG"
 F 5 "CC0603KRX7R9BB104" H 12500 3700 60  0001 C CNN "MPN"
 	1    12500 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR01
@@ -130,7 +130,7 @@ F 1 "GND" H 12500 4000 50  0000 C CNN
 F 2 "" H 12500 4150 50  0000 C CNN
 F 3 "" H 12500 4150 50  0000 C CNN
 	1    12500 4150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 13050 4400 0    60   ~ 0
 P0
@@ -143,7 +143,7 @@ F 1 "GND" H 14850 5500 50  0000 C CNN
 F 2 "" H 14850 5650 50  0000 C CNN
 F 3 "" H 14850 5650 50  0000 C CNN
 	1    14850 5650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X01 MOSI1
@@ -156,7 +156,7 @@ F 3 "" H 12700 5350 50  0000 C CNN
 F 4 "PCB" H 12700 5350 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12700 5350 60  0001 C CNN "MPN"
 	1    12700 5350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 SPICLK1
@@ -169,7 +169,7 @@ F 3 "" H 12700 5450 50  0000 C CNN
 F 4 "PCB" H 12700 5450 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12700 5450 60  0001 C CNN "MPN"
 	1    12700 5450
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 SPI_CS_0_8
@@ -182,7 +182,7 @@ F 3 "" H 12700 5650 50  0000 C CNN
 F 4 "PCB" H 12700 5650 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12700 5650 60  0001 C CNN "MPN"
 	1    12700 5650
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 MISO1
@@ -195,7 +195,7 @@ F 3 "" H 15550 4450 50  0000 C CNN
 F 4 "PCB" H 15550 4450 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 15550 4450 60  0001 C CNN "MPN"
 	1    15550 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 13050 4500 0    60   ~ 0
 P1
@@ -222,7 +222,7 @@ F 3 "" H 12900 3950 50  0000 C CNN
 F 4 "PCB" H 12900 3950 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12900 3950 60  0001 C CNN "MPN"
 	1    12900 3950
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 GND1
@@ -235,7 +235,7 @@ F 3 "" H 12250 3900 50  0000 C CNN
 F 4 "PCB" H 12250 3900 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12250 3900 60  0001 C CNN "MPN"
 	1    12250 3900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L MCP3008T-I/SL U2
@@ -248,7 +248,7 @@ F 3 "" H 13950 7550 60  0001 C CNN
 F 4 "Microchip" H 13950 7550 60  0001 C CNN "MFG"
 F 5 "MCP3008T-I/SL" H 13950 7550 60  0001 C CNN "MPN"
 	1    13950 7550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C2
@@ -261,7 +261,7 @@ F 3 "" H 12450 6450 50  0000 C CNN
 F 4 "Yaego" H 12450 6450 60  0001 C CNN "MFG"
 F 5 "CC0603KRX7R9BB104" H 12450 6450 60  0001 C CNN "MPN"
 	1    12450 6450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR03
@@ -272,7 +272,7 @@ F 1 "GND" H 12450 6550 50  0000 C CNN
 F 2 "" H 12450 6700 50  0000 C CNN
 F 3 "" H 12450 6700 50  0000 C CNN
 	1    12450 6700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 13000 7150 0    60   ~ 0
 P8
@@ -285,7 +285,7 @@ F 1 "GND" H 14800 8250 50  0000 C CNN
 F 2 "" H 14800 8400 50  0000 C CNN
 F 3 "" H 14800 8400 50  0000 C CNN
 	1    14800 8400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CONN_01X01 SPI_CS_8_15
@@ -298,7 +298,7 @@ F 3 "" H 12300 8400 50  0000 C CNN
 F 4 "PCB" H 12300 8400 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12300 8400 60  0001 C CNN "MPN"
 	1    12300 8400
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text Label 13000 7250 0    60   ~ 0
 P9
@@ -437,7 +437,7 @@ F 3 "" H 12850 1150 50  0000 C CNN
 F 4 "PCB" H 12850 1150 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12850 1150 60  0001 C CNN "MPN"
 	1    12850 1150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 A1
@@ -450,7 +450,7 @@ F 3 "" H 12850 1350 50  0000 C CNN
 F 4 "PCB" H 12850 1350 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12850 1350 60  0001 C CNN "MPN"
 	1    12850 1350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 A2
@@ -463,7 +463,7 @@ F 3 "" H 12850 1550 50  0000 C CNN
 F 4 "PCB" H 12850 1550 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12850 1550 60  0001 C CNN "MPN"
 	1    12850 1550
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 A3
@@ -476,7 +476,7 @@ F 3 "" H 12850 1750 50  0000 C CNN
 F 4 "PCB" H 12850 1750 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12850 1750 60  0001 C CNN "MPN"
 	1    12850 1750
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X01 A4
@@ -489,7 +489,7 @@ F 3 "" H 12850 1950 50  0000 C CNN
 F 4 "PCB" H 12850 1950 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 12850 1950 60  0001 C CNN "MPN"
 	1    12850 1950
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L XYJOY J0
@@ -500,7 +500,7 @@ F 1 "XYJOY" H 1800 2450 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 1800 2450 60  0001 C CNN
 F 3 "" H 1800 2450 60  0001 C CNN
 	1    1800 1900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR05
@@ -511,7 +511,7 @@ F 1 "VCC" H 12500 3600 50  0000 C CNN
 F 2 "" H 12500 3450 50  0000 C CNN
 F 3 "" H 12500 3450 50  0000 C CNN
 	1    12500 3450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR06
@@ -522,7 +522,7 @@ F 1 "VCC" H 12450 6350 50  0000 C CNN
 F 2 "" H 12450 6200 50  0000 C CNN
 F 3 "" H 12450 6200 50  0000 C CNN
 	1    12450 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR07
@@ -533,7 +533,7 @@ F 1 "VCC" H 1150 1850 50  0000 C CNN
 F 2 "" H 1150 1700 50  0000 C CNN
 F 3 "" H 1150 1700 50  0000 C CNN
 	1    1150 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR08
@@ -544,7 +544,7 @@ F 1 "GND" H 1150 2750 50  0000 C CNN
 F 2 "" H 1150 2900 50  0000 C CNN
 F 3 "" H 1150 2900 50  0000 C CNN
 	1    1150 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1150 1700 1150 2300
@@ -580,7 +580,7 @@ F 3 "" H 2850 2800 50  0000 C CNN
 F 4 "PCB" H 2850 2800 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 2850 2800 60  0001 C CNN "MPN"
 	1    2850 2800
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	2650 2800 2350 2800
@@ -597,7 +597,7 @@ F 1 "XYJOY" H 4300 2400 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 4300 2400 60  0001 C CNN
 F 3 "" H 4300 2400 60  0001 C CNN
 	1    4300 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR09
@@ -608,7 +608,7 @@ F 1 "VCC" H 3650 1800 50  0000 C CNN
 F 2 "" H 3650 1650 50  0000 C CNN
 F 3 "" H 3650 1650 50  0000 C CNN
 	1    3650 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR010
@@ -619,7 +619,7 @@ F 1 "GND" H 3650 2700 50  0000 C CNN
 F 2 "" H 3650 2850 50  0000 C CNN
 F 3 "" H 3650 2850 50  0000 C CNN
 	1    3650 2850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3650 1650 3650 2250
@@ -655,7 +655,7 @@ F 3 "" H 5350 2750 50  0000 C CNN
 F 4 "PCB" H 5350 2750 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 5350 2750 60  0001 C CNN "MPN"
 	1    5350 2750
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	5150 2750 4850 2750
@@ -672,7 +672,7 @@ F 1 "XYJOY" H 6550 2400 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 6550 2400 60  0001 C CNN
 F 3 "" H 6550 2400 60  0001 C CNN
 	1    6550 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR011
@@ -683,7 +683,7 @@ F 1 "VCC" H 5900 1800 50  0000 C CNN
 F 2 "" H 5900 1650 50  0000 C CNN
 F 3 "" H 5900 1650 50  0000 C CNN
 	1    5900 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR012
@@ -694,7 +694,7 @@ F 1 "GND" H 5900 2700 50  0000 C CNN
 F 2 "" H 5900 2850 50  0000 C CNN
 F 3 "" H 5900 2850 50  0000 C CNN
 	1    5900 2850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5900 1650 5900 2250
@@ -730,7 +730,7 @@ F 3 "" H 7600 2750 50  0000 C CNN
 F 4 "PCB" H 7600 2750 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 7600 2750 60  0001 C CNN "MPN"
 	1    7600 2750
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	7400 2750 7100 2750
@@ -747,7 +747,7 @@ F 1 "XYJOY" H 9050 2350 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 9050 2350 60  0001 C CNN
 F 3 "" H 9050 2350 60  0001 C CNN
 	1    9050 1800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR013
@@ -758,7 +758,7 @@ F 1 "VCC" H 8400 1750 50  0000 C CNN
 F 2 "" H 8400 1600 50  0000 C CNN
 F 3 "" H 8400 1600 50  0000 C CNN
 	1    8400 1600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR014
@@ -769,7 +769,7 @@ F 1 "GND" H 8400 2650 50  0000 C CNN
 F 2 "" H 8400 2800 50  0000 C CNN
 F 3 "" H 8400 2800 50  0000 C CNN
 	1    8400 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8400 1600 8400 2200
@@ -805,7 +805,7 @@ F 3 "" H 10100 2700 50  0000 C CNN
 F 4 "PCB" H 10100 2700 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 10100 2700 60  0001 C CNN "MPN"
 	1    10100 2700
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	9900 2700 9600 2700
@@ -822,7 +822,7 @@ F 1 "XYJOY" H 1850 5150 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 1850 5150 60  0001 C CNN
 F 3 "" H 1850 5150 60  0001 C CNN
 	1    1850 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR015
@@ -833,7 +833,7 @@ F 1 "VCC" H 1200 4550 50  0000 C CNN
 F 2 "" H 1200 4400 50  0000 C CNN
 F 3 "" H 1200 4400 50  0000 C CNN
 	1    1200 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR016
@@ -844,7 +844,7 @@ F 1 "GND" H 1200 5450 50  0000 C CNN
 F 2 "" H 1200 5600 50  0000 C CNN
 F 3 "" H 1200 5600 50  0000 C CNN
 	1    1200 5600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1200 4400 1200 5000
@@ -880,7 +880,7 @@ F 3 "" H 2900 5500 50  0000 C CNN
 F 4 "PCB" H 2900 5500 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 2900 5500 60  0001 C CNN "MPN"
 	1    2900 5500
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	2700 5500 2400 5500
@@ -897,7 +897,7 @@ F 1 "XYJOY" H 4350 5100 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 4350 5100 60  0001 C CNN
 F 3 "" H 4350 5100 60  0001 C CNN
 	1    4350 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR017
@@ -908,7 +908,7 @@ F 1 "VCC" H 3700 4500 50  0000 C CNN
 F 2 "" H 3700 4350 50  0000 C CNN
 F 3 "" H 3700 4350 50  0000 C CNN
 	1    3700 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR018
@@ -919,7 +919,7 @@ F 1 "GND" H 3700 5400 50  0000 C CNN
 F 2 "" H 3700 5550 50  0000 C CNN
 F 3 "" H 3700 5550 50  0000 C CNN
 	1    3700 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3700 4350 3700 4950
@@ -955,7 +955,7 @@ F 3 "" H 5400 5450 50  0000 C CNN
 F 4 "PCB" H 5400 5450 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 5400 5450 60  0001 C CNN "MPN"
 	1    5400 5450
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	5200 5450 4900 5450
@@ -972,7 +972,7 @@ F 1 "XYJOY" H 6600 5100 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 6600 5100 60  0001 C CNN
 F 3 "" H 6600 5100 60  0001 C CNN
 	1    6600 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR019
@@ -983,7 +983,7 @@ F 1 "VCC" H 5950 4500 50  0000 C CNN
 F 2 "" H 5950 4350 50  0000 C CNN
 F 3 "" H 5950 4350 50  0000 C CNN
 	1    5950 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR020
@@ -994,7 +994,7 @@ F 1 "GND" H 5950 5400 50  0000 C CNN
 F 2 "" H 5950 5550 50  0000 C CNN
 F 3 "" H 5950 5550 50  0000 C CNN
 	1    5950 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5950 4350 5950 4950
@@ -1030,7 +1030,7 @@ F 3 "" H 7650 5450 50  0000 C CNN
 F 4 "PCB" H 7650 5450 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 7650 5450 60  0001 C CNN "MPN"
 	1    7650 5450
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	7450 5450 7150 5450
@@ -1047,7 +1047,7 @@ F 1 "XYJOY" H 9100 5050 60  0000 C CNN
 F 2 "Liberry:XY_JOY_254TA103B50B" H 9100 5050 60  0001 C CNN
 F 3 "" H 9100 5050 60  0001 C CNN
 	1    9100 4500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VCC #PWR021
@@ -1058,7 +1058,7 @@ F 1 "VCC" H 8450 4450 50  0000 C CNN
 F 2 "" H 8450 4300 50  0000 C CNN
 F 3 "" H 8450 4300 50  0000 C CNN
 	1    8450 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR022
@@ -1069,7 +1069,7 @@ F 1 "GND" H 8450 5350 50  0000 C CNN
 F 2 "" H 8450 5500 50  0000 C CNN
 F 3 "" H 8450 5500 50  0000 C CNN
 	1    8450 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8450 4300 8450 4900
@@ -1105,7 +1105,7 @@ F 3 "" H 10150 5400 50  0000 C CNN
 F 4 "PCB" H 10150 5400 60  0001 C CNN "MFG"
 F 5 "ON_PCB" H 10150 5400 60  0001 C CNN "MPN"
 	1    10150 5400
-	1    0    0    1   
+	1    0    0    1
 $EndComp
 Wire Wire Line
 	9950 5400 9650 5400

@@ -400,9 +400,9 @@ F 5 "CRCW06030000ZSTA" V 8650 3700 60  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 Text Label 13600 2850 0    60   ~ 0
-UART_RX_EXT
+RX_EXT
 Text Label 13600 2750 0    60   ~ 0
-UART_TX_EXT
+TX_EXT
 Text Label 13600 3650 0    60   ~ 0
 I2C_SDA_EXT
 Text Label 13600 3550 0    60   ~ 0
@@ -742,4 +742,6 @@ Wire Wire Line
 	13150 2550 14000 2550
 Wire Wire Line
 	13150 2650 14000 2650
+Text Label 9650 3450 0    60   ~ 0
+RX_BLUE_PILL
 $EndSCHEMATC

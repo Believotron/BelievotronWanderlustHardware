@@ -130,15 +130,15 @@ F 3 "" H 3200 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3400 5200 0    60   ~ 0
-SPI_MOSI_AXO
+SPI_MOSI_EXT
 Text Label 3400 5100 0    60   ~ 0
-SPI_MISO_AXO
+SPI_MISO_EXT
 Text Label 3400 5000 0    60   ~ 0
-SPI_CLK_AXO
+SPI_CLK_EXT
 Text Label 3400 3000 0    60   ~ 0
-CS_0_7_AXO
+CS_0_7_EXT
 Text Label 3400 2900 0    60   ~ 0
-CS_8_15_AXO
+CS_8_15_EXT
 $Comp
 L +3.3V #PWR02
 U 1 1 591E099F
@@ -226,13 +226,13 @@ ANALOG_OUT
 Text Label 20250 3000 0    60   ~ 0
 ANALOG_OUT
 Text Label 3400 3600 0    60   ~ 0
-PC1_AXO
+PC1_EXT
 Text Label 20300 3100 0    60   ~ 0
 PC0_EXT
 Text Label 20300 3200 0    60   ~ 0
 PC1_EXT
 Text Label 3400 3500 0    60   ~ 0
-PC0_AXO
+PC0_EXT
 Text Notes 19750 3300 0    60   ~ 0
 PC2\n
 Text Notes 19750 3400 0    60   ~ 0
@@ -329,24 +329,10 @@ Text Label 9850 2750 0    60   ~ 0
 I2C_SCL_AXO
 Text Label 9850 2650 0    60   ~ 0
 I2C_SDA_AXO
-Text Label 9850 2850 0    60   ~ 0
-SPI_MOSI_AXO
-Text Label 9850 2950 0    60   ~ 0
-SPI_MISO_AXO
-Text Label 9850 3050 0    60   ~ 0
-SPI_CLK_AXO
-Text Label 9850 3150 0    60   ~ 0
-CS_0_7_AXO
-Text Label 13200 3050 0    60   ~ 0
-CS_8_15_AXO
 Text Label 7700 3450 0    60   ~ 0
 TX_AXO
 Text Label 7700 3550 0    60   ~ 0
 RX_AXO
-Text Label 13200 2450 0    60   ~ 0
-PC1_AXO
-Text Label 13200 2350 0    60   ~ 0
-PC0_AXO
 Text Label 13600 2850 0    60   ~ 0
 RX_EXT
 Text Label 13600 2750 0    60   ~ 0
@@ -355,12 +341,6 @@ Text Label 13600 3650 0    60   ~ 0
 I2C_SDA_EXT
 Text Label 13600 3550 0    60   ~ 0
 I2C_SCL_EXT
-Text Label 9850 3750 0    60   ~ 0
-SPI_MOSI_EXT
-Text Label 9850 3850 0    60   ~ 0
-SPI_MISO_EXT
-Text Label 9850 3950 0    60   ~ 0
-SPI_CLK_EXT
 Wire Wire Line
 	3350 3200 4200 3200
 Wire Wire Line
@@ -544,20 +524,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 2750 10650 2750
 Wire Wire Line
-	9800 3050 10650 3050
-Wire Wire Line
-	9800 2950 10650 2950
-Wire Wire Line
-	9800 2850 10650 2850
-Wire Wire Line
-	13150 2350 14000 2350
-Wire Wire Line
-	13150 2450 14000 2450
-Wire Wire Line
-	9800 3150 10650 3150
-Wire Wire Line
-	13150 3050 14000 3050
-Wire Wire Line
 	7650 3450 10650 3450
 Wire Wire Line
 	7650 3550 10650 3550
@@ -569,20 +535,6 @@ Wire Wire Line
 	13150 3650 14800 3650
 Wire Wire Line
 	13150 3550 14800 3550
-Wire Wire Line
-	9800 3950 10650 3950
-Wire Wire Line
-	9800 3850 10650 3850
-Wire Wire Line
-	9800 3750 10650 3750
-Text Label 9850 4050 0    60   ~ 0
-CS_0_7_EXT
-Wire Wire Line
-	9800 4050 10650 4050
-Text Label 13200 3150 0    60   ~ 0
-CS_8_15_EXT
-Wire Wire Line
-	13150 3150 14000 3150
 $Comp
 L +3.3V #PWR07
 U 1 1 5AA19E22
@@ -650,12 +602,4 @@ F 3 "" H 10400 2250 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	10650 2250 10400 2250
-Text Label 13200 2650 0    60   ~ 0
-PC1_EXT
-Text Label 13200 2550 0    60   ~ 0
-PC0_EXT
-Wire Wire Line
-	13150 2550 14000 2550
-Wire Wire Line
-	13150 2650 14000 2650
 $EndSCHEMATC

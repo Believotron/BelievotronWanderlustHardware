@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="750px" viewBox="0 0 800 750" enable-background="new 0 0 800 750" xml:space="preserve">
+<image overflow="visible" width="700" height="316" xlink:href="474474E7.jpg"  transform="matrix(-4.371139e-008 1 -1 -4.371139e-008 569 0)">
+</image>
+<rect x="198" y="396" opacity="0.75" width="143" height="27"/>
+<rect x="198" y="365" opacity="0.75" width="143" height="27"/>
+<rect x="198" y="335.5" opacity="0.75" width="143" height="27"/>
+<rect x="198" y="306.5" opacity="0.75" width="143" height="27"/>
+<rect x="485" y="306.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="198" y="45.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="198" y="73.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="198" y="101.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="198" y="129.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="485" y="483.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="485" y="451.5" opacity="0.75" fill="#CA4C9B" width="143" height="27"/>
+<rect x="485" y="336.5" opacity="0.75" width="143" height="27"/>
+<rect x="485" y="537.5" opacity="0.75" width="143" height="27"/>
+<rect x="485" y="510.5" opacity="0.75" width="143" height="27"/>
+<text transform="matrix(1 0 0 1 25 18)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">Remove / Do not place the following pins:</tspan><tspan x="0" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">on PCB1010_FPC_Breakout_2018-03-16</tspan></text>
+<text transform="matrix(1 0 0 1 68.6108 320)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<text transform="matrix(1 0 0 1 68.6108 350)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<text transform="matrix(1 0 0 1 68.6108 378.5)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<text transform="matrix(1 0 0 1 68.6108 409.5)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<text transform="matrix(1 0 0 1 700.0801 357)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<text transform="matrix(1 0 0 1 700.0801 530.9902)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<text transform="matrix(1 0 0 1 700.0801 551)" font-family="'MyriadPro-Regular'" font-size="12">DNI</text>
+<g>
+	<g>
+		<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" x1="324" y1="143" x2="318" y2="143"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="12.0909,12.0909" x1="305.909" y1="143" x2="191.045" y2="143"/>
+		<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="185,143 179,143 179,149 		"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="12.119,12.119" x1="179" y1="161.119" x2="179" y2="397.44"/>
+		<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="179,403.5 179,409.5 185,409.5 		"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="12.0909,12.0909" x1="197.091" y1="409.5" x2="311.955" y2="409.5"/>
+		<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" x1="318" y1="409.5" x2="324" y2="409.5"/>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" x1="324" y1="115" x2="322" y2="115"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="4.0769,4.0769" x1="317.923" y1="115" x2="165.039" y2="115"/>
+		<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="163,115 161,115 161,117 		"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="3.9923,3.9923" x1="161" y1="120.992" x2="161" y2="374.504"/>
+		<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="161,376.5 161,378.5 163,378.5 		"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="4.0769,4.0769" x1="167.077" y1="378.5" x2="319.961" y2="378.5"/>
+		<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" x1="322" y1="378.5" x2="324" y2="378.5"/>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" x1="324" y1="87" x2="323" y2="87"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="2.011,2.011" x1="320.989" y1="87" x2="141.005" y2="87"/>
+		<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="140,87 139,87 139,88 		"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="1.9924,1.9924" x1="139" y1="89.992" x2="139" y2="348.004"/>
+		<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="139,349 139,350 140,350 		"/>
+		
+			<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="2.011,2.011" x1="142.011" y1="350" x2="321.995" y2="350"/>
+		<line fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" x1="323" y1="350" x2="324" y2="350"/>
+	</g>
+</g>
+<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="327,59 117,59 117,320 327,320 "/>
+<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="501,551 672,551 672,497 501,497 "/>
+<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" stroke-dasharray="12" points="501,524 565,524 
+	648,524 648,470 501,470 "/>
+<polyline fill="none" stroke="#53B848" stroke-width="6" stroke-miterlimit="10" points="501,320 665,320 665,357 501,357 "/>
+</svg>

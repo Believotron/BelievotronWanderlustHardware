@@ -1122,7 +1122,7 @@
       (net 1 GND))
   )
 
-  (gr_text "PCB1010_FPC Breakout 2018-04-16\nhttps://github.com/Believotron/\nBelievotronWanderlustHardware\n" (at 85.852 -12.7) (layer B.SilkS) (tstamp 5AD6146F)
+  (gr_text "PCB1010_FPC Breakout 2018-04-18\nhttps://github.com/Believotron/\nBelievotronWanderlustHardware\n" (at 85.852 -12.7) (layer B.SilkS) (tstamp 5AD6146F)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
   )
   (gr_line (start 144.526 -6.35) (end 145.034 -6.858) (layer F.SilkS) (width 0.2) (tstamp 5AD5C5E5))

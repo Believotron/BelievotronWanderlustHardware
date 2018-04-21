@@ -5,7 +5,7 @@
     (no_connects 0)
     (area -0.100001 -55.980001 174.418096 1.270001)
     (thickness 1.6)
-    (drawings 81)
+    (drawings 82)
     (tracks 746)
     (zones 0)
     (modules 9)
@@ -1122,6 +1122,18 @@
       (net 1 GND))
   )
 
+  (dimension 109.22 (width 0.3) (layer Dwgs.User)
+    (gr_text "109.220 mm" (at 105.41 7.7) (layer Dwgs.User)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 160.02 0) (xy 160.02 9.05)))
+    (feature2 (pts (xy 50.8 0) (xy 50.8 9.05)))
+    (crossbar (pts (xy 50.8 6.35) (xy 160.02 6.35)))
+    (arrow1a (pts (xy 160.02 6.35) (xy 158.893496 6.936421)))
+    (arrow1b (pts (xy 160.02 6.35) (xy 158.893496 5.763579)))
+    (arrow2a (pts (xy 50.8 6.35) (xy 51.926504 6.936421)))
+    (arrow2b (pts (xy 50.8 6.35) (xy 51.926504 5.763579)))
+  )
   (gr_text "PCB1010_FPC Breakout 2018-04-18\nhttps://github.com/Believotron/\nBelievotronWanderlustHardware\n" (at 85.852 -12.7) (layer B.SilkS) (tstamp 5AD6146F)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left mirror))
   )
@@ -2238,7 +2250,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 47.625 -2.54) (xy 48.895 -34.925) (xy 160.655 -31.75) (xy 160.02 0) (xy 50.165 1.27)
+        (xy 47.625 -2.318287) (xy 48.895 -34.703287) (xy 160.655 -31.528287) (xy 160.02 0.221713) (xy 50.165 1.491713)
       )
     )
     (filled_polygon

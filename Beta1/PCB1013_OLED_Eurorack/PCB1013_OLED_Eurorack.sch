@@ -22,129 +22,6 @@ Text Notes 29300 20500 0    60   ~ 0
 \nOpen source via MIT License\ngithub.com/Believotron/BelievotronWanderlustHardware
 Text Notes 30450 21350 0    60   ~ 0
 Date
-$Comp
-L PCB1013_OLED_Eurorack-rescue:Axoloti_40Pin J1
-U 1 1 591BA4F8
-P 22000 6350
-F 0 "J1" H 22300 11850 60  0000 C CNN
-F 1 "Axoloti_40Pin" H 23650 11900 60  0000 C CNN
-F 2 "Liberry:Axoloti-40x1_slim" H 18550 9300 60  0001 C CNN
-F 3 "" H 18550 9300 60  0001 C CNN
-	1    22000 6350
-	1    0    0    -1  
-$EndComp
-Text Label 21200 1700 0    60   ~ 0
-I2C_SCL_AXO
-Text Label 21200 1800 0    60   ~ 0
-I2C_SDA_AXO
-$Comp
-L power:GND #PWR06
-U 1 1 591BA513
-P 21000 5600
-F 0 "#PWR06" H 21000 5350 50  0001 C CNN
-F 1 "GND" H 21000 5450 50  0000 C CNN
-F 2 "" H 21000 5600 50  0000 C CNN
-F 3 "" H 21000 5600 50  0000 C CNN
-	1    21000 5600
-	1    0    0    -1  
-$EndComp
-Text Label 21200 3800 0    60   ~ 0
-SPI_MOSI
-Text Label 21200 3700 0    60   ~ 0
-SPI_MISO
-Text Label 21200 3600 0    60   ~ 0
-SPI_CLK
-Text Label 21250 2200 0    60   ~ 0
-JOY_0_SW
-Text Label 21250 2300 0    60   ~ 0
-JOY_1_SW
-Text Label 21200 1600 0    60   ~ 0
-CS_0_7
-Text Label 21200 1500 0    60   ~ 0
-CS_8_15
-$Comp
-L power:+3.3V #PWR07
-U 1 1 591E099F
-P 21000 1250
-F 0 "#PWR07" H 21000 1100 50  0001 C CNN
-F 1 "+3.3V" H 21000 1390 50  0000 C CNN
-F 2 "" H 21000 1250 50  0000 C CNN
-F 3 "" H 21000 1250 50  0000 C CNN
-	1    21000 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21150 1800 22000 1800
-Wire Wire Line
-	21150 1700 22000 1700
-Wire Wire Line
-	20750 1400 21000 1400
-Wire Wire Line
-	21000 1900 21000 2700
-Wire Wire Line
-	21000 4600 22000 4600
-Wire Wire Line
-	21000 4500 22000 4500
-Connection ~ 21000 4600
-Wire Wire Line
-	21000 4100 22000 4100
-Connection ~ 21000 4500
-Wire Wire Line
-	21000 3300 22000 3300
-Connection ~ 21000 4100
-Wire Wire Line
-	21000 2700 22000 2700
-Connection ~ 21000 3300
-Wire Wire Line
-	21000 1900 22000 1900
-Connection ~ 21000 2700
-Wire Wire Line
-	20750 2000 22000 2000
-Wire Wire Line
-	20750 3400 22000 3400
-Wire Wire Line
-	20750 4200 21900 4200
-Wire Wire Line
-	22000 4300 21900 4300
-Wire Wire Line
-	21900 4300 21900 4200
-Connection ~ 21900 4200
-Wire Wire Line
-	21150 3600 22000 3600
-Wire Wire Line
-	21150 3700 22000 3700
-Wire Wire Line
-	21150 3800 22000 3800
-Wire Wire Line
-	21150 2100 22000 2100
-Wire Wire Line
-	21150 2200 22000 2200
-Wire Wire Line
-	21150 3900 22000 3900
-Wire Wire Line
-	21150 1600 22000 1600
-Wire Wire Line
-	21150 1500 22000 1500
-Wire Wire Line
-	21000 1400 21000 1250
-Wire Wire Line
-	20750 1400 20750 2000
-Connection ~ 21000 1400
-Connection ~ 20750 2000
-Connection ~ 20750 2800
-Connection ~ 20750 3400
-Wire Wire Line
-	22000 4000 21150 4000
-Text Label 21200 3000 0    60   ~ 0
-VOLUME
-Wire Wire Line
-	21150 3000 22000 3000
-Wire Wire Line
-	22000 2400 21150 2400
-Wire Wire Line
-	22000 2500 21150 2500
-Wire Wire Line
-	22000 2900 21150 2900
 Text Label 25650 3150 0    60   ~ 0
 SPI_MOSI
 Text Label 25650 3050 0    60   ~ 0
@@ -258,16 +135,6 @@ Wire Wire Line
 Connection ~ 26150 3550
 Wire Wire Line
 	24550 1850 26100 1850
-Wire Wire Line
-	22000 3500 21150 3500
-Text Label 21200 3500 0    60   ~ 0
-ANALOG_OUT
-Text Label 21250 2100 0    60   ~ 0
-RESET_AXO
-Text Label 21250 2400 0    60   ~ 0
-JOY_2_SW
-Text Label 21250 2500 0    60   ~ 0
-JOY_3_SW
 Text Notes 24750 2050 0    60   ~ 0
 PC0
 Text Notes 24750 2150 0    60   ~ 0
@@ -278,18 +145,6 @@ Text Notes 24750 2350 0    60   ~ 0
 PC3
 Text Notes 24750 2450 0    60   ~ 0
 PC4
-Wire Wire Line
-	22000 2300 21150 2300
-Wire Wire Line
-	22000 2800 20750 2800
-Wire Wire Line
-	22000 3100 21150 3100
-Wire Wire Line
-	22000 3200 21150 3200
-Text Label 21200 3100 0    60   ~ 0
-TX
-Text Label 21200 3200 0    60   ~ 0
-RX
 $Comp
 L Device:R RD10
 U 1 1 59927728
@@ -773,26 +628,6 @@ Connection ~ 28250 11200
 Wire Wire Line
 	28050 11300 29150 11300
 Connection ~ 28050 10350
-Wire Wire Line
-	21000 4600 21000 5600
-Wire Wire Line
-	21000 4500 21000 4600
-Wire Wire Line
-	21000 4100 21000 4500
-Wire Wire Line
-	21000 3300 21000 4100
-Wire Wire Line
-	21000 2700 21000 3300
-Wire Wire Line
-	21900 4200 22000 4200
-Wire Wire Line
-	21000 1400 22000 1400
-Wire Wire Line
-	20750 2000 20750 2800
-Wire Wire Line
-	20750 2800 20750 3400
-Wire Wire Line
-	20750 3400 20750 4200
 Wire Wire Line
 	26100 1750 26100 1850
 Wire Wire Line

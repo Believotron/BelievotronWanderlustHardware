@@ -1,87 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:believotron_wanderlust
+EESchema Schematic File Version 4
 LIBS:PCB1010_Axoloti_40P_to_20P_FFC-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr D 34000 22000
 encoding utf-8
@@ -104,7 +23,7 @@ Text Notes 29300 20500 0    60   ~ 0
 Text Notes 30450 21350 0    60   ~ 0
 Date
 $Comp
-L Axoloti_40Pin J1
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:Axoloti_40Pin J1
 U 1 1 591BA4F8
 P 4200 7750
 F 0 "J1" H 4500 13250 60  0000 C CNN
@@ -119,7 +38,7 @@ I2C_SCL_AXO
 Text Label 3400 3200 0    60   ~ 0
 I2C_SDA_AXO
 $Comp
-L GND #PWR01
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:GND #PWR01
 U 1 1 591BA513
 P 3200 7000
 F 0 "#PWR01" H 3200 6750 50  0001 C CNN
@@ -140,7 +59,7 @@ CS_0_7_EXT
 Text Label 3400 2900 0    60   ~ 0
 CS_8_15_EXT
 $Comp
-L +3.3V #PWR02
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:+3.3V #PWR02
 U 1 1 591E099F
 P 3200 2650
 F 0 "#PWR02" H 3200 2500 50  0001 C CNN
@@ -183,7 +102,7 @@ TX_AXO
 Text Label 3400 4600 0    60   ~ 0
 RX_AXO
 $Comp
-L +3.3V #PWR03
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:+3.3V #PWR03
 U 1 1 596EA01A
 P 21000 2650
 F 0 "#PWR03" H 21000 2500 50  0001 C CNN
@@ -194,7 +113,7 @@ F 3 "" H 21000 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:GND #PWR04
 U 1 1 596EA0DD
 P 21050 4900
 F 0 "#PWR04" H 21050 4650 50  0001 C CNN
@@ -205,7 +124,7 @@ F 3 "" H 21050 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FPC_20POS J2
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:FPC_20POS J2
 U 1 1 596EA301
 P 21400 2800
 F 0 "J2" H 21450 2950 60  0000 C CNN
@@ -262,7 +181,7 @@ CS_8_15_EXT
 Text Label 23900 4350 0    60   ~ 0
 SPI_MISO_EXT
 $Comp
-L +3.3V #PWR05
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:+3.3V #PWR05
 U 1 1 5AA080DB
 P 24350 2700
 F 0 "#PWR05" H 24350 2550 50  0001 C CNN
@@ -273,7 +192,7 @@ F 3 "" H 24350 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:GND #PWR06
 U 1 1 5AA080E1
 P 24400 4950
 F 0 "#PWR06" H 24400 4700 50  0001 C CNN
@@ -284,7 +203,7 @@ F 3 "" H 24400 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FPC_20POS J3
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:FPC_20POS J3
 U 1 1 5AA080E7
 P 24750 2850
 F 0 "J3" H 24800 3000 60  0000 C CNN
@@ -315,7 +234,7 @@ SLW20R-1C7LF\n20 pos FFC x 1mm\nTH
 Text Notes 21250 5200 0    60   ~ 0
 52271-1679\n20 pos FFC x 1 mm\nSMD
 $Comp
-L STM32F103C8T6_BLUE_PILL U5000
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:STM32F103C8T6_BLUE_PILL U5000
 U 1 1 5AA095FF
 P 11950 3100
 F 0 "U5000" H 12750 4300 60  0000 C CNN
@@ -346,9 +265,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 3100 4200 3100
 Wire Wire Line
-	2950 2800 4200 2800
+	2950 2800 3200 2800
 Wire Wire Line
-	3200 3300 3200 7000
+	3200 3300 3200 4100
 Wire Wire Line
 	3200 6000 4200 6000
 Wire Wire Line
@@ -373,7 +292,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4800 4200 4800
 Wire Wire Line
-	2950 5600 4200 5600
+	2950 5600 4100 5600
 Wire Wire Line
 	4200 5700 4100 5700
 Wire Wire Line
@@ -398,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3700 3350 3700
 Wire Wire Line
-	2950 2800 2950 5600
+	2950 2800 2950 3400
 Connection ~ 3200 2800
 Connection ~ 2950 3400
 Connection ~ 2950 4200
@@ -438,14 +357,14 @@ Wire Wire Line
 Wire Wire Line
 	21200 2800 21000 2800
 Wire Wire Line
-	21000 2650 21000 2900
+	21000 2650 21000 2800
 Connection ~ 21000 2800
 Wire Wire Line
 	21200 4600 21050 4600
 Wire Wire Line
-	21050 4600 21050 4900
+	21050 4600 21050 4700
 Wire Wire Line
-	19450 4700 21200 4700
+	19450 4700 21050 4700
 Connection ~ 21050 4700
 Wire Wire Line
 	19450 3700 21200 3700
@@ -471,7 +390,7 @@ Wire Wire Line
 	19550 2800 19450 2800
 Connection ~ 21000 2900
 Wire Wire Line
-	19550 2900 21200 2900
+	19550 2900 21000 2900
 Wire Wire Line
 	22800 4250 24550 4250
 Wire Wire Line
@@ -495,12 +414,12 @@ Wire Wire Line
 Wire Wire Line
 	24550 2850 24350 2850
 Wire Wire Line
-	24350 2700 24350 2950
+	24350 2700 24350 2850
 Connection ~ 24350 2850
 Wire Wire Line
 	24550 4650 24400 4650
 Wire Wire Line
-	24400 4650 24400 4950
+	24400 4650 24400 4750
 Connection ~ 24400 4750
 Wire Wire Line
 	22800 3750 24550 3750
@@ -514,7 +433,6 @@ Wire Wire Line
 	22800 3150 24550 3150
 Wire Wire Line
 	22800 3250 24550 3250
-Connection ~ 24350 2950
 Wire Wire Line
 	24550 4750 24400 4750
 Wire Wire Line
@@ -536,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 3550 14800 3550
 $Comp
-L +3.3V #PWR07
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:+3.3V #PWR07
 U 1 1 5AA19E22
 P 10400 2100
 F 0 "#PWR07" H 10400 1950 50  0001 C CNN
@@ -547,7 +465,7 @@ F 3 "" H 10400 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR08
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:+3.3V #PWR08
 U 1 1 5AA19FB3
 P 13650 3850
 F 0 "#PWR08" H 13650 3700 50  0001 C CNN
@@ -566,7 +484,7 @@ Wire Wire Line
 Text Label 1200 3500 0    60   ~ 0
 RESET
 $Comp
-L GND #PWR09
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:GND #PWR09
 U 1 1 5AA1BEA8
 P 13300 4150
 F 0 "#PWR09" H 13300 3900 50  0001 C CNN
@@ -579,7 +497,7 @@ $EndComp
 Wire Wire Line
 	13150 3950 13300 3950
 Wire Wire Line
-	13300 3950 13300 4150
+	13300 3950 13300 4050
 Wire Wire Line
 	13150 4050 13300 4050
 Connection ~ 13300 4050
@@ -590,7 +508,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 2150 10650 2150
 $Comp
-L GND #PWR010
+L PCB1010_Axoloti_40P_to_20P_FFC-rescue:GND #PWR010
 U 1 1 5AA1D02A
 P 10400 2250
 F 0 "#PWR010" H 10400 2000 50  0001 C CNN
@@ -602,4 +520,38 @@ F 3 "" H 10400 2250 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	10650 2250 10400 2250
+Wire Wire Line
+	3200 6000 3200 7000
+Wire Wire Line
+	3200 5900 3200 6000
+Wire Wire Line
+	3200 5500 3200 5900
+Wire Wire Line
+	3200 4700 3200 5500
+Wire Wire Line
+	3200 4100 3200 4700
+Wire Wire Line
+	4100 5600 4200 5600
+Wire Wire Line
+	3200 2800 4200 2800
+Wire Wire Line
+	2950 3400 2950 4200
+Wire Wire Line
+	2950 4200 2950 4800
+Wire Wire Line
+	2950 4800 2950 5600
+Wire Wire Line
+	21000 2800 21000 2900
+Wire Wire Line
+	21050 4700 21050 4900
+Wire Wire Line
+	21050 4700 21200 4700
+Wire Wire Line
+	21000 2900 21200 2900
+Wire Wire Line
+	24350 2850 24350 2950
+Wire Wire Line
+	24400 4750 24400 4950
+Wire Wire Line
+	13300 4050 13300 4150
 $EndSCHEMATC

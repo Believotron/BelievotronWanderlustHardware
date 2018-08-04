@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PCB1010_Axoloti_40P_to_20P_FFC-rescue)(type Legacy)(uri ${KIPRJMOD}/PCB1010_Axoloti_40P_to_20P_FFC-rescue.lib)(options "")(descr ""))
+)
